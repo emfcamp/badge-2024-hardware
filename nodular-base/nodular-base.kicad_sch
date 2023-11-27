@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6dcb0502-87e2-4c28-9ce8-81aab8925f06)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 180.34 64.77) (size 46.99 46.99) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6fb70d96-9605-4ce0-8240-c18acdf3484a)
+    (property "Sheetname" "SFPs" (at 180.34 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sfps.kicad_sch" (at 180.34 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nodular-base"
+        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

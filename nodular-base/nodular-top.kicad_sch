@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 67223bb4-fb4b-4d28-a5c8-1b64a0b88fc4)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 195.58 67.31) (size 34.29 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 853d8a0d-6c1f-4247-8bb7-205d5bbb87ec)
+    (property "Sheetname" "LED" (at 195.58 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "top-leds.kicad_sch" (at 195.58 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nodular-top"
+        (path "/67223bb4-fb4b-4d28-a5c8-1b64a0b88fc4" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

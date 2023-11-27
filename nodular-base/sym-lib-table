@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nodular")(type "KiCad")(uri "${KIPRJMOD}/nodular.kicad_sym")(options "")(descr ""))
+)
