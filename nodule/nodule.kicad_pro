@@ -430,7 +430,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../nodular-base/3d/nodule.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

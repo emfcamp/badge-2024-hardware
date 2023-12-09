@@ -21,12 +21,6 @@
     (property "ki_fp_filters" "QFN*1EP*7x7mm*P0.4mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "ESP32-S3-PICO-1-N8R2_0_0"
-      (pin power_in line (at 0 -40.64 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "49" (effects (font (size 1.27 1.27))))
-      )
-    )
     (symbol "ESP32-S3-PICO-1-N8R2_0_1"
       (rectangle (start -17.78 38.1) (end 17.78 -38.1)
         (stroke (width 0.254) (type default))
@@ -233,6 +227,10 @@
       (pin passive line (at -5.08 40.64 270) (length 2.54) hide
         (name "VDDA" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 -40.64 90) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "57" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 20.32 33.02 180) (length 2.54)
         (name "GPIO1" (effects (font (size 1.27 1.27))))
