@@ -852,7 +852,6 @@
     (uuid ff4c49de-d1d1-4976-b796-c6b93e37e383)
   )
 
-  (no_connect (at 54.61 53.34) (uuid 6bd420d4-584f-4688-b01a-ab3dc0d34d38))
   (no_connect (at 93.98 175.26) (uuid 79a501b9-6d13-4f40-a143-d645cc2efbc3))
 
   (wire (pts (xy 156.21 91.44) (xy 157.48 91.44))
@@ -3765,10 +3764,6 @@
     (pin "PMIC_~{INT}" bidirectional (at 54.61 50.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 42c3c5b0-bdd4-4ed0-9c96-391948df422f)
-    )
-    (pin "PMIC_OTG" bidirectional (at 54.61 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b5d15ad0-cf38-4308-913c-8eb682e6b084)
     )
     (pin "DEV_PCTRL_~{INT}" tri_state (at 54.61 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
