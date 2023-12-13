@@ -313,6 +313,7 @@
     (uuid bd0fe37b-25c0-4cf5-a87b-0d7d05c846c1)
   )
 
+  (no_connect (at 208.28 72.39) (uuid 19b09713-3cd9-469b-8078-68657adc2a92))
   (no_connect (at 185.42 67.31) (uuid a06fa2d1-942a-4a6a-af3d-e757b016394c))
 
   (wire (pts (xy 102.87 82.55) (xy 102.87 85.09))
@@ -448,6 +449,10 @@
   (hierarchical_label "I2C_RESET" (shape input) (at 102.87 69.85 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6cd4cd4c-4591-42b6-b98c-ca169b1a3be2)
+  )
+  (hierarchical_label "ACCEL_INT" (shape bidirectional) (at 208.28 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 852855c1-ff23-4782-8c01-753aa3455b85)
   )
   (hierarchical_label "SCL_B" (shape output) (at 123.19 67.31 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))

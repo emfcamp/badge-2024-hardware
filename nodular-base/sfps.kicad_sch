@@ -3129,7 +3129,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise") (at 163.83 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 013b9deb-7152-425b-aabf-53087e111cbb)
     (property "Reference" "J2" (at 165.1 86.36 0)
       (effects (font (size 1.27 1.27)))
@@ -3292,7 +3292,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise") (at 232.41 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 117a7b39-d858-4564-a427-75c79fe93f9b)
     (property "Reference" "J5" (at 233.68 86.36 0)
       (effects (font (size 1.27 1.27)))
@@ -4146,7 +4146,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise") (at 232.41 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 5858d976-8ba9-47e0-8ef7-00cebba72355)
     (property "Reference" "J4" (at 233.68 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -4677,7 +4677,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise") (at 163.83 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 817a80f6-f64b-4c27-8873-12f8d434ec13)
     (property "Reference" "J3" (at 165.1 119.38 0)
       (effects (font (size 1.27 1.27)))
@@ -5926,7 +5926,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise") (at 232.41 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f4629383-0d1f-49fe-9b6f-dab52dafe503)
     (property "Reference" "J6" (at 233.68 119.38 0)
       (effects (font (size 1.27 1.27)))
