@@ -411,6 +411,241 @@
         )
       )
     )
+    (symbol "Mechanical:Housing" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "N" (at 3.81 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Housing" (at 3.81 -1.905 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 1.27 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 1.27 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "housing enclosure" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Housing" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Enclosure* Housing*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Housing_0_1"
+        (rectangle (start -5.08 -0.635) (end -1.27 -1.905)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center -4.445 -3.175) (radius 0.635)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center -1.905 -3.175) (radius 0.635)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -4.5212 -1.5748)
+            (xy -4.4704 -1.3716)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.4196 -1.6764)
+            (xy -4.064 -1.6764)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.4196 -1.2192)
+            (xy -4.3688 -0.9652)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.318 -1.3208)
+            (xy -4.0132 -1.3208)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.2164 -0.9144)
+            (xy -3.9116 -0.9144)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.9116 -1.6256)
+            (xy -3.8608 -1.3716)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 -1.2192)
+            (xy -3.7592 -0.9652)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.6068 -1.5748)
+            (xy -3.556 -1.3716)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.5052 -1.6764)
+            (xy -3.1496 -1.6764)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.5052 -1.2192)
+            (xy -3.4544 -0.9652)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.4036 -1.3208)
+            (xy -3.0988 -1.3208)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.302 -0.9144)
+            (xy -2.9972 -0.9144)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.9972 -1.6256)
+            (xy -2.9464 -1.3716)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.8956 -1.2192)
+            (xy -2.8448 -0.9652)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.6924 -1.5748)
+            (xy -2.6416 -1.3716)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.5908 -1.6764)
+            (xy -2.2352 -1.6764)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.5908 -1.2192)
+            (xy -2.54 -0.9652)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.4892 -1.3208)
+            (xy -2.1844 -1.3208)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.3876 -0.9144)
+            (xy -2.0828 -0.9144)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.0828 -1.6256)
+            (xy -2.032 -1.3716)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 -1.2192)
+            (xy -1.9304 -0.9652)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 0)
+            (xy -0.635 -4.445)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.715 0)
+            (xy -0.635 0)
+            (xy 3.175 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.715 0)
+            (xy -5.715 -4.445)
+            (xy -0.635 -4.445)
+            (xy 3.175 -0.635)
+            (xy 3.175 3.81)
+            (xy -1.905 3.81)
+            (xy -5.715 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+      )
+    )
     (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 1.27 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2413,6 +2648,30 @@
       (project "nodular-base"
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
           (reference "SW3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Housing") (at 139.7 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 707dab28-1cf0-44c1-9169-de61a06f5494)
+    (property "Reference" "N1" (at 143.51 181.9275 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Housing" (at 143.51 184.4675 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "nodular:bartholomew" (at 140.97 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 140.97 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "nodular-base"
+        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
+          (reference "N1") (unit 1)
         )
       )
     )
