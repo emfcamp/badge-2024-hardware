@@ -16478,6 +16478,38 @@
     )
   )
 
+  (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
+    (tstamp 6980b10e-cb2a-4e19-a9ae-10023a94a5b0)
+    (at 100 100 180)
+    (descr "SMD pad as test Point, diameter 1.0mm")
+    (tags "test point SMD pad")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "REF**" (at 0 1.448) (layer "B.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp f469c1b5-f367-4e2f-827c-aabf1aebabf6)
+    )
+    (fp_text value "TestPoint_Pad_D1.0mm" (at 0 -1.55) (layer "B.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp ff7991dc-0211-4b04-b7b5-1cb0f9c7b5ce)
+    )
+    (fp_text user "${REFERENCE}" (at 0 1.45) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 299e760b-8d42-4850-9988-b39503ec7dbd)
+    )
+    (fp_circle (center 0 0) (end 1 0)
+      (stroke (width 0.05) (type solid)) (fill none) (layer "B.CrtYd") (tstamp 0e68bb35-90fd-4665-a19d-2ed0ef0c2927))
+    (model "${KIPRJMOD}/3d/battery.stepx"
+      (offset (xyz -0.5 -2 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -165))
+    )
+    (model "${KIPRJMOD}/nodular-bottom.stepx"
+      (offset (xyz 0 0 14.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 -180 0))
+    )
+  )
+
   (footprint "TestPoint:TestPoint_Pad_4.0x4.0mm" (layer "B.Cu")
     (tstamp 6bdef861-45b0-4d39-af95-221630ce0dc2)
     (at 92.3 69.5 180)

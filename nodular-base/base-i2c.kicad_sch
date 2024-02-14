@@ -723,7 +723,7 @@
   (symbol (lib_id "Device:C") (at 213.36 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12567067-c50e-48b1-8da9-c0cd214e70fc)
-    (property "Reference" "C3" (at 213.36 50.8 0)
+    (property "Reference" "C42" (at 213.36 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 213.36 55.88 0)
@@ -739,9 +739,6 @@
     (pin "2" (uuid e48464ba-73b4-4c82-bf35-c43aed28f3ef))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
-          (reference "C3") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/5ae693f9-48f3-406c-bbdf-b76d81cc71eb"
           (reference "C42") (unit 1)
         )
@@ -777,7 +774,7 @@
   (symbol (lib_id "Device:C") (at 100.33 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dcc4da7-120a-46ee-8bcf-f0557ad1150f)
-    (property "Reference" "C3" (at 100.33 41.91 0)
+    (property "Reference" "C16" (at 100.33 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 100.33 46.99 0)
@@ -793,9 +790,6 @@
     (pin "2" (uuid efe7c34a-b157-40fc-8795-de1239c29fd3))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
-          (reference "C3") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/5ae693f9-48f3-406c-bbdf-b76d81cc71eb"
           (reference "C16") (unit 1)
         )
@@ -806,7 +800,7 @@
   (symbol (lib_id "Device:C") (at 228.6 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a4ea202-cd59-4d7e-ad43-7377b77ff9e6)
-    (property "Reference" "C3" (at 228.6 73.66 0)
+    (property "Reference" "C50" (at 228.6 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 228.6 78.74 0)
@@ -822,9 +816,6 @@
     (pin "2" (uuid f1b8c5d8-86e4-49e7-b334-638df06244e5))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
-          (reference "C3") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/5ae693f9-48f3-406c-bbdf-b76d81cc71eb"
           (reference "C50") (unit 1)
         )

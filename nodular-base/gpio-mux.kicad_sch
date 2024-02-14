@@ -582,7 +582,7 @@
   (symbol (lib_id "Device:C") (at 180.34 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1eb813bd-6d82-4391-9e42-8199c31c451b)
-    (property "Reference" "C3" (at 180.34 62.23 0)
+    (property "Reference" "C45" (at 180.34 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 180.34 67.31 0)
@@ -598,12 +598,6 @@
     (pin "2" (uuid c49bf171-940d-4420-9bce-be194fcd36b6))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
-          (reference "C3") (unit 1)
-        )
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/5ae693f9-48f3-406c-bbdf-b76d81cc71eb"
-          (reference "C16") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/52c49487-f3d5-40e2-8f19-e7b81498d838"
           (reference "C45") (unit 1)
         )
@@ -738,7 +732,7 @@
   (symbol (lib_id "Device:C") (at 130.81 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5948f74c-5380-4c1d-8018-98d6f3166287)
-    (property "Reference" "C3" (at 130.81 62.23 0)
+    (property "Reference" "C44" (at 130.81 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 130.81 67.31 0)
@@ -754,12 +748,6 @@
     (pin "2" (uuid e5eb4a55-f765-45cd-9677-156e2e26fa1a))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
-          (reference "C3") (unit 1)
-        )
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/5ae693f9-48f3-406c-bbdf-b76d81cc71eb"
-          (reference "C16") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/52c49487-f3d5-40e2-8f19-e7b81498d838"
           (reference "C44") (unit 1)
         )
@@ -869,7 +857,7 @@
   (symbol (lib_id "Device:C") (at 81.28 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb9dab45-efe0-4b89-90ce-d30c95a5e935)
-    (property "Reference" "C3" (at 81.28 62.23 0)
+    (property "Reference" "C43" (at 81.28 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 81.28 67.31 0)
@@ -885,12 +873,6 @@
     (pin "2" (uuid 93d77d18-8317-4d2d-b9eb-af53b87e6d06))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
-          (reference "C3") (unit 1)
-        )
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/5ae693f9-48f3-406c-bbdf-b76d81cc71eb"
-          (reference "C16") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/52c49487-f3d5-40e2-8f19-e7b81498d838"
           (reference "C43") (unit 1)
         )

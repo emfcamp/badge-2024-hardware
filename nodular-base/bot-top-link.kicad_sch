@@ -780,9 +780,6 @@
   (junction (at 48.26 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 6e237e02-5fea-4bcc-a21a-a8d85ec2b9d5)
   )
-  (junction (at 35.56 29.21) (diameter 0) (color 0 0 0 0)
-    (uuid 6e3d27c4-ed41-473e-8004-fbd0f38eadc5)
-  )
   (junction (at 128.27 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 701e1527-8b92-4623-a48b-90b18c71309b)
   )
@@ -812,9 +809,6 @@
   )
   (junction (at 44.45 107.95) (diameter 0) (color 0 0 0 0)
     (uuid cae71329-acce-4c75-91e7-395a83a0d1de)
-  )
-  (junction (at 45.72 29.21) (diameter 0) (color 0 0 0 0)
-    (uuid d3867989-242d-4ae2-ae96-49c28df50ed8)
   )
   (junction (at 40.64 29.21) (diameter 0) (color 0 0 0 0)
     (uuid da7d7b6d-cb1e-4cb8-bd41-cc530233112e)
@@ -870,10 +864,6 @@
     (stroke (width 0) (type default))
     (uuid 215def0a-8e8e-470a-b2f4-3e8384486ee6)
   )
-  (wire (pts (xy 35.56 29.21) (xy 38.1 29.21))
-    (stroke (width 0) (type default))
-    (uuid 2936d749-6a36-45e4-8260-b0fd2f6bdc3f)
-  )
   (wire (pts (xy 102.87 69.85) (xy 102.87 72.39))
     (stroke (width 0) (type default))
     (uuid 2b122cbe-e2f9-42cc-b54e-05912eb70b85)
@@ -922,7 +912,7 @@
     (stroke (width 0) (type default))
     (uuid 5f767a6b-35a2-4666-9e7a-72740d48b7d1)
   )
-  (wire (pts (xy 30.48 29.21) (xy 35.56 29.21))
+  (wire (pts (xy 30.48 29.21) (xy 38.1 29.21))
     (stroke (width 0) (type default))
     (uuid 5fdbd23f-f62c-4656-a071-3688bad76fb2)
   )
@@ -998,7 +988,7 @@
     (stroke (width 0) (type default))
     (uuid 9be170f0-0264-491f-808c-ddba69a33cb3)
   )
-  (wire (pts (xy 45.72 29.21) (xy 50.8 29.21))
+  (wire (pts (xy 40.64 29.21) (xy 50.8 29.21))
     (stroke (width 0) (type default))
     (uuid 9decc40a-4326-4fa3-9f0a-73c944604b8a)
   )
@@ -1061,10 +1051,6 @@
   (wire (pts (xy 41.91 87.63) (xy 48.26 87.63))
     (stroke (width 0) (type default))
     (uuid c4804c04-54fc-4667-aa5c-4a53ae774d83)
-  )
-  (wire (pts (xy 40.64 29.21) (xy 45.72 29.21))
-    (stroke (width 0) (type default))
-    (uuid c4cb9e05-6d24-42af-9db1-15ca8c19611e)
   )
   (wire (pts (xy 44.45 115.57) (xy 54.61 115.57))
     (stroke (width 0) (type default))
@@ -1380,34 +1366,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 25.4 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 35a81b0f-f4e6-4d7d-b935-c474e7367383)
-    (property "Reference" "H1" (at 24.13 21.59 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 27.94 26.67 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "nodular:SMTSO3030CTJ" (at 25.4 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 25.4 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0504b023-7f50-45fe-9bc6-22fa5d00c6c1))
-    (instances
-      (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "H1") (unit 1)
-        )
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
-          (reference "H13") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 38.1 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bd1ea46-1c46-40f5-9a9d-4dc848bae6c3)
@@ -1436,7 +1394,7 @@
   (symbol (lib_id "Device:C") (at 102.87 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50db7be7-fbdd-44d4-823b-caeddf84d8f1)
-    (property "Reference" "C21" (at 101.6 73.66 0)
+    (property "Reference" "C23" (at 101.6 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 101.6 78.74 0)
@@ -1452,9 +1410,6 @@
     (pin "2" (uuid 4f7cd02a-ec55-4084-962c-a4c8c24eed7a))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "C21") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "C23") (unit 1)
         )
@@ -1465,7 +1420,7 @@
   (symbol (lib_id "Device:C") (at 138.43 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5260c853-ee3d-4e8a-8d56-8fadd5df3402)
-    (property "Reference" "C22" (at 139.7 73.66 0)
+    (property "Reference" "C24" (at 139.7 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 139.7 78.74 0)
@@ -1481,9 +1436,6 @@
     (pin "2" (uuid eef89686-1921-4aa0-a2fd-d8b4fe2da381))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "C22") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "C24") (unit 1)
         )
@@ -1513,9 +1465,6 @@
     (pin "1" (uuid 559580cb-f7fd-4301-8d0a-8d4094bb8725))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
-          (reference "U6") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "U6") (unit 1)
         )
@@ -1526,7 +1475,7 @@
   (symbol (lib_id "Power_Management:AAT4610BIGV-1-T1") (at 120.65 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5632f538-3e0d-483b-a2dc-be53fbe03a72)
-    (property "Reference" "U13" (at 120.65 64.77 0)
+    (property "Reference" "U14" (at 120.65 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MT9700" (at 120.65 67.31 0)
@@ -1545,9 +1494,6 @@
     (pin "3" (uuid c5144ffc-e832-4f1a-af12-c4f7d37fe9d8))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "U13") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "U14") (unit 1)
         )
@@ -1580,38 +1526,10 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 35.56 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5f88ff03-414e-491f-9abc-927dfa949c1f)
-    (property "Reference" "H1" (at 34.29 21.59 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 38.1 26.67 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "nodular:SMTSO3030CTJ" (at 35.56 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 35.56 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8ff49b96-394c-45b2-a17f-b789bd41e8b4))
-    (instances
-      (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "H1") (unit 1)
-        )
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
-          (reference "H15") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 133.35 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6373b5a7-981d-49c7-90b4-a90426a73619)
-    (property "Reference" "R22" (at 130.81 81.28 90)
+    (property "Reference" "R23" (at 130.81 81.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "11k3" (at 133.35 81.28 90)
@@ -1627,9 +1545,6 @@
     (pin "1" (uuid 73f5bd7d-c268-4c59-9adb-4ed07e918dc0))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "R22") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "R23") (unit 1)
         )
@@ -1640,7 +1555,7 @@
   (symbol (lib_id "Device:R") (at 140.97 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74049492-ba33-4975-80c4-3d8d163fe7c7)
-    (property "Reference" "R22" (at 143.51 52.07 90)
+    (property "Reference" "R24" (at 143.51 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 143.51 49.53 90)
@@ -1656,39 +1571,8 @@
     (pin "1" (uuid fad1f73d-4e10-48cf-935c-a602f311d5a7))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "R22") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "R24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 45.72 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 80d0fefb-5bd7-4d92-b6f9-93a4bfefa844)
-    (property "Reference" "H1" (at 44.45 21.59 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 48.26 26.67 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "nodular:SMTSO3030CTJ" (at 45.72 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bddc5a88-5366-4a32-bd7d-b3eed57e4ab5))
-    (instances
-      (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "H1") (unit 1)
-        )
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
-          (reference "H17") (unit 1)
         )
       )
     )
@@ -1697,7 +1581,7 @@
   (symbol (lib_id "nodular:RCLAMP0524P-ES") (at 71.12 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c08f555-eee1-41da-bb04-71d5bffeb8d0)
-    (property "Reference" "U17" (at 74.93 53.34 0)
+    (property "Reference" "U44" (at 74.93 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCLAMP0524P-ES" (at 64.77 46.99 0)
@@ -1721,9 +1605,6 @@
     (pin "4" (uuid 20757a46-a047-46ce-a14d-10bbffe10b1c))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "U17") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "U44") (unit 1)
         )
@@ -1759,7 +1640,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 50.8 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f1b5683-500b-4932-9d37-df311291b8c1)
-    (property "Reference" "H1" (at 49.53 21.59 0)
+    (property "Reference" "H18" (at 49.53 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 53.34 26.67 0)
@@ -1774,9 +1655,6 @@
     (pin "1" (uuid 0dc965a5-28bf-478a-9be5-656a2639ed80))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "H1") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "H18") (unit 1)
         )
@@ -1787,7 +1665,7 @@
   (symbol (lib_id "nodular:RCLAMP0524P-ES") (at 67.31 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9ec1a65-975f-4cef-bc59-7967247de610)
-    (property "Reference" "U17" (at 71.12 106.68 0)
+    (property "Reference" "U47" (at 71.12 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCLAMP0524P-ES" (at 71.12 109.22 0)
@@ -1811,9 +1689,6 @@
     (pin "4" (uuid da18dfd3-d65f-484a-a189-4b474ba872d1))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "U17") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "U47") (unit 1)
         )
@@ -1824,7 +1699,7 @@
   (symbol (lib_id "nodular:RCLAMP0524P-ES") (at 74.93 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb969792-8ffe-49c6-9ef5-7370eb440259)
-    (property "Reference" "U17" (at 78.74 88.9 0)
+    (property "Reference" "U46" (at 78.74 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCLAMP0524P-ES" (at 68.58 82.55 0)
@@ -1848,9 +1723,6 @@
     (pin "4" (uuid b924c496-df5c-4cec-936b-d72d1615ff41))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "U17") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "U46") (unit 1)
         )
@@ -1886,7 +1758,7 @@
   (symbol (lib_id "power:GND") (at 128.27 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf92b85d-77d1-4ca0-89de-18caed12470b)
-    (property "Reference" "#PWR032" (at 128.27 88.9 0)
+    (property "Reference" "#PWR033" (at 128.27 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 87.63 0)
@@ -1901,9 +1773,6 @@
     (pin "1" (uuid 1a72aa01-756f-46b3-a5cc-cb27e206a5c4))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "#PWR032") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "#PWR033") (unit 1)
         )
@@ -1914,7 +1783,7 @@
   (symbol (lib_id "nodular:RCLAMP0524P-ES") (at 66.04 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d193095e-f6ab-4c01-8b68-3f46a3dd834e)
-    (property "Reference" "U17" (at 69.85 68.58 0)
+    (property "Reference" "U45" (at 69.85 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCLAMP0524P-ES" (at 69.85 71.12 0)
@@ -1938,9 +1807,6 @@
     (pin "4" (uuid fb5e5e69-386d-47c4-9e5f-aed2c014a660))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "U17") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "U45") (unit 1)
         )
@@ -2006,7 +1872,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 30.48 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d30a969b-926b-46a7-bde5-51c5fc67a0b2)
-    (property "Reference" "H1" (at 29.21 21.59 0)
+    (property "Reference" "H14" (at 29.21 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 33.02 26.67 0)
@@ -2021,9 +1887,6 @@
     (pin "1" (uuid ab159335-a427-4874-a381-463e6342e20d))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "H1") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "H14") (unit 1)
         )
@@ -2034,7 +1897,7 @@
   (symbol (lib_id "power:GND") (at 115.57 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddfa6a08-773c-4f03-91ed-9fc8be90bf05)
-    (property "Reference" "#PWR032" (at 115.57 66.04 0)
+    (property "Reference" "#PWR035" (at 115.57 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 64.77 0)
@@ -2049,9 +1912,6 @@
     (pin "1" (uuid af10dcf3-f5d3-4d5b-be60-274f267bd2ed))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "#PWR032") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "#PWR035") (unit 1)
         )
@@ -2062,7 +1922,7 @@
   (symbol (lib_id "power:GND") (at 157.48 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f10a5998-5dda-4cb0-94f8-69cb8a1ded40)
-    (property "Reference" "#PWR032" (at 157.48 63.5 0)
+    (property "Reference" "#PWR034" (at 157.48 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 62.23 0)
@@ -2077,9 +1937,6 @@
     (pin "1" (uuid 74f93e85-c85e-4200-b8bd-897ae2b2ea1a))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "#PWR032") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "#PWR034") (unit 1)
         )
@@ -2115,7 +1972,7 @@
   (symbol (lib_id "Device:R") (at 110.49 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f848a5b3-87c6-4243-8c83-bdfc1b89ad4a)
-    (property "Reference" "R22" (at 107.95 92.71 90)
+    (property "Reference" "R25" (at 107.95 92.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "11k3" (at 110.49 92.71 90)
@@ -2131,9 +1988,6 @@
     (pin "1" (uuid f7389981-e930-4df6-9ec6-ee0e21184071))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "R22") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "R25") (unit 1)
         )
@@ -2144,7 +1998,7 @@
   (symbol (lib_id "Device:R") (at 168.91 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9716725-02e4-43fc-9414-5695eb9744cc)
-    (property "Reference" "R22" (at 171.45 52.07 90)
+    (property "Reference" "R26" (at 171.45 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 171.45 49.53 90)
@@ -2160,9 +2014,6 @@
     (pin "1" (uuid a34829f4-6885-41f9-a783-3f623208e2b1))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "R22") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "R26") (unit 1)
         )
@@ -2173,7 +2024,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 40.64 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fba75c7a-d285-48bb-aab0-953eb0713da9)
-    (property "Reference" "H1" (at 39.37 21.59 0)
+    (property "Reference" "H16" (at 39.37 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 43.18 26.67 0)
@@ -2188,9 +2039,6 @@
     (pin "1" (uuid c82d7ad3-1e79-49aa-8e63-a2635fc8dfcd))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "H1") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "H16") (unit 1)
         )
@@ -2201,7 +2049,7 @@
   (symbol (lib_id "nodular:RCLAMP0524P-ES") (at 59.69 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fec5060f-6857-4900-8e4a-c4390eeaa3a9)
-    (property "Reference" "U17" (at 63.5 113.03 0)
+    (property "Reference" "U48" (at 63.5 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCLAMP0524P-ES" (at 62.23 118.11 0)
@@ -2225,9 +2073,6 @@
     (pin "4" (uuid 8c8f139b-0a17-45cc-af56-29ba919ac20f))
     (instances
       (project "nodular-base"
-        (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/6fb70d96-9605-4ce0-8240-c18acdf3484a"
-          (reference "U17") (unit 1)
-        )
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06/35334d26-c60a-4490-bcdf-fce7d9c2e66d"
           (reference "U48") (unit 1)
         )
