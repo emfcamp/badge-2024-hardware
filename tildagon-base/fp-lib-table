@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tildagon")(type "KiCad")(uri "${KIPRJMOD}/tildagon.pretty")(options "")(descr ""))
+)
