@@ -1,0 +1,8 @@
+Some models in this directory are vendor-provided and are not covered by 
+the top-level license.
+
+These are:
+
+- USB connector 2169900003.stp
+- SFP connector UE75-A20-6000T.step
+- battery connector B2B-PH-SM4-TB.step
