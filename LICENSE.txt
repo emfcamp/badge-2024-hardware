@@ -1,0 +1,6 @@
+Please see hexpansion/LICENSE.txt and tildagon-base/LICENSE.txt 
+for licensing details.
+
+The contents of datasheets is provided for reference only.  We 
+do not claim any licensing authority on the contents of that 
+directory.
