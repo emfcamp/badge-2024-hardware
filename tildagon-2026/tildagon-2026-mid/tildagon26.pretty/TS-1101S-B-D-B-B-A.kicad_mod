@@ -1,0 +1,191 @@
+(footprint "TS-1101S-B-D-B-B-A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile Switch SPST 168gf 7mm height 6x2.5mm outline https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C609858.pdf")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a5e000e7-6669-494c-93f0-daa8b9e314e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TS-1101S-B-D-B-B-A"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f235e7f-c05e-4aa7-b977-737c50c42cb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec4a1e51-a932-4f9b-8f98-d9096302da51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "788b1d26-2b2e-494d-8c5c-9f7eda6f3dfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -1.85)
+		(end 3.1 -1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1b3c1a6-d42b-4cf1-95ca-044094ade771")
+	)
+	(fp_line
+		(start -3.1 -1.05)
+		(end -3.1 -1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa332d1f-fea7-487d-a12c-c63022c1775b")
+	)
+	(fp_line
+		(start -3.1 1.85)
+		(end -3.1 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "60f0f5e7-1089-44be-977d-600bbd845025")
+	)
+	(fp_line
+		(start 3.1 -1.85)
+		(end 3.1 -1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82d02191-5ed1-40c9-a564-a7ea1120b639")
+	)
+	(fp_line
+		(start 3.1 1.05)
+		(end 3.1 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "065a7a3b-1c03-48ff-a84a-5d9aac7b7318")
+	)
+	(fp_line
+		(start 3.1 1.85)
+		(end -3.1 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "524bd283-1a9f-45d4-bf46-be51a2e6301c")
+	)
+	(fp_poly
+		(pts
+			(xy 3.25 -1.05) (xy 5.2 -1.05) (xy 5.2 1.05) (xy 3.25 1.05) (xy 3.25 2) (xy -3.25 2) (xy -3.25 1.05)
+			(xy -5.2 1.05) (xy -5.2 -1.05) (xy -3.25 -1.05) (xy -3.25 -2) (xy 3.25 -2)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f02c87a5-7907-4ca3-ba9d-2047376c4d37")
+	)
+	(fp_rect
+		(start -3 -1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "55cac86d-38c1-4ad1-a739-0e0f17103fe3")
+	)
+	(fp_rect
+		(start -1.5 -0.75)
+		(end 1.5 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cc103b3f-ddcd-4195-95c1-9c230c3aa88d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ebc4a5f6-b8fb-4339-bbf4-b1add8f38028")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.9 0)
+		(size 2.1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "cbd7f6df-ffaa-4807-bd31-999b08978b94")
+	)
+	(pad "2" smd roundrect
+		(at 3.9 0)
+		(size 2.1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "19abfcfb-41eb-4911-93aa-7506581fee73")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/TS-1101S-B-D-B-B-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
