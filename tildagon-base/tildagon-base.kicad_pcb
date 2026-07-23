@@ -362,7 +362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -390,7 +390,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/df00498f-9b27-401d-b023-97ac00324085")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -590,7 +590,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/33b0f297-e5a9-4e53-9fd3-541163567e16")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -867,7 +867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -895,7 +895,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/d5c493a3-4e18-42e8-a067-fa8facc89900")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -1070,7 +1070,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1098,7 +1098,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/cd428f4d-cf52-4573-a3d4-c8f326ba93fc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1271,7 +1271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1299,7 +1299,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b85421a8-4da1-48f9-a899-3d4db79169bf")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1472,7 +1472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1500,7 +1500,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/9778fed0-49db-4069-be2c-f71936267526")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1674,7 +1674,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 240)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1702,7 +1702,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/243fe0bd-da3d-4158-8fa1-98d5c8dc76c0")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2154,7 +2154,7 @@
 			)
 		)
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/160bfa6c-664c-44f8-91fe-ab4d1eb5a17b")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2430,7 +2430,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2458,7 +2458,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/48bee842-3754-493e-97f1-a0570dac1656")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2631,7 +2631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2659,7 +2659,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/07e20d51-83fc-4ece-8888-4bf42a1efafe")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2860,7 +2860,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/b516dca1-8989-43b2-af93-dbfe21707145")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3095,7 +3095,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3123,7 +3123,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/cead0e31-55d5-4473-b1c8-2503ad8b1a90")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/0ef7ef9e-dd1b-42da-9962-aa678ba04bf8")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3599,7 +3599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3627,7 +3627,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/fd9fa68b-5565-462c-bd18-b76e2e151c8e")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3800,7 +3800,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3828,7 +3828,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/7bde8083-6517-4862-8399-ba4833d5b650")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4003,7 +4003,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4031,7 +4031,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/3b256417-59c0-4ad9-b58d-5fa5b55b3ae1")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -4135,7 +4135,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4163,7 +4163,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/48ab7d9e-f4cb-4f13-96d8-9cbc3967a14b")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4325,7 +4325,7 @@
 				)
 			)
 		)
-		(property "Value" "LSM6DS3"
+		(property "Value" "BMI270"
 			(at 0 2.2 0)
 			(layer "F.Fab")
 			(uuid "97555ccd-a8af-4a75-9f4c-0579f79bf363")
@@ -4336,7 +4336,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf"
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4364,7 +4364,7 @@
 		)
 		(property ki_fp_filters "LGA*3x2.5mm*P0.5mm*LayoutBorder3x4y*")
 		(path "/5ae693f9-48f3-406c-bbdf-b76d81cc71eb/9cc5d6e4-31ed-49ce-ab1c-f0e8b76b3354")
-		(sheetname "I2C")
+		(sheetname "/I2C/")
 		(sheetfile "base-i2c.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4720,7 +4720,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4748,7 +4748,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/7149db58-2ddb-446f-a5b3-b2a25c560187")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -4922,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4950,7 +4950,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f00b11ef-b6b2-47d0-b0a0-555f30b7b31b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5123,7 +5123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5151,7 +5151,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/dad0d3f4-6f91-429a-9dff-bb24f9a509eb")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5324,7 +5324,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5352,7 +5352,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/5260c853-ee3d-4e8a-8d56-8fadd5df3402")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5525,7 +5525,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5553,7 +5553,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/aa63e0d8-8d58-49b4-acbb-a4c7a43f1c95")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5726,7 +5726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5754,7 +5754,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/52c49487-f3d5-40e2-8f19-e7b81498d838/5948f74c-5380-4c1d-8018-98d6f3166287")
-		(sheetname "GPIO")
+		(sheetname "/GPIO/")
 		(sheetfile "gpio-mux.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5927,7 +5927,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5955,7 +5955,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/5ae693f9-48f3-406c-bbdf-b76d81cc71eb/1dcc4da7-120a-46ee-8bcf-f0557ad1150f")
-		(sheetname "I2C")
+		(sheetname "/I2C/")
 		(sheetfile "base-i2c.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6155,7 +6155,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/45f5960a-f224-4402-839d-bc0926e6c8f7")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6431,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6459,7 +6459,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/e1dd20b4-5ac9-459e-8d85-35074e745240")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd dnp)
 		(fp_line
@@ -6634,7 +6634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6662,7 +6662,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/6e48d3d5-3ae9-4981-bdbc-ba99459a56ce")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -6794,7 +6794,7 @@
 		)
 		(property ki_fp_filters "WQFN*1EP*2.5x2.5mm*P0.5mm*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/9fca5a50-9771-4d34-b548-432a43479219")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7214,7 +7214,7 @@
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/72bbf2b7-2660-4add-994b-53ffe63040eb")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7671,7 +7671,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7699,7 +7699,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/c5626b65-63a7-4460-8fcd-f847dd4046ff")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7872,7 +7872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7900,7 +7900,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/3e11c05a-754d-444c-9b0c-7f77ac2e9df5")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8100,7 +8100,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/f33f167e-7b91-49e6-87e1-9f00f033edee")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8403,7 +8403,7 @@
 			)
 		)
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/fec5060f-6857-4900-8e4a-c4390eeaa3a9")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8707,7 +8707,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/5e39f9cb-dc46-4239-b29d-8afeed533dd1")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8942,7 +8942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8970,7 +8970,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/4e3c6065-ea3e-4251-b78f-80186ecd312e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9143,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9171,7 +9171,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/391f69fe-63f7-4d36-9f4f-4842ba2e38e0")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9371,7 +9371,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/0b115fd0-c1b6-46f6-a762-2403140581ee")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9648,7 +9648,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9676,7 +9676,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4af5c8c1-d585-4ac9-b4ed-1c8045d52ea7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9850,7 +9850,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9878,7 +9878,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/e7103ed2-e9a7-473b-b665-586c3a8ac0af")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10051,7 +10051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10079,7 +10079,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/7b66aa6d-850e-4776-a920-d454b88b208b")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10279,7 +10279,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/81ff9c1c-ae74-4a5a-84c6-007e9964ff44")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10582,7 +10582,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/99bf7d2b-978b-44c5-997c-c3e3d608f28a")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10886,7 +10886,7 @@
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/6cf7b218-a989-4e96-b301-84473c2c642f")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11354,7 +11354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11382,7 +11382,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/f0826c2e-e3cd-4a8e-8c1b-e7d3d3bfcb11")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11582,7 +11582,7 @@
 			)
 		)
 		(path "/52c49487-f3d5-40e2-8f19-e7b81498d838/f5d8ba21-68cb-4ec0-ae32-8defee736c42")
-		(sheetname "GPIO")
+		(sheetname "/GPIO/")
 		(sheetfile "gpio-mux.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12074,7 +12074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12102,7 +12102,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/90873089-dfbd-4f17-905d-0951808edaf5")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12302,7 +12302,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/cc2845a6-9a1a-402c-ad8f-d31eb16ace05")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12605,7 +12605,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/7a97b203-e048-402f-b444-425a20073cbd")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12882,7 +12882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12910,7 +12910,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/2d05c225-7a80-4cde-89cd-82e337ee4a92")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13085,7 +13085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13113,7 +13113,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/fdabb1bb-5a27-4dbb-b928-dc67dd9501ba")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -13217,7 +13217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13245,7 +13245,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/5ae693f9-48f3-406c-bbdf-b76d81cc71eb/12567067-c50e-48b1-8da9-c0cd214e70fc")
-		(sheetname "I2C")
+		(sheetname "/I2C/")
 		(sheetfile "base-i2c.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13445,7 +13445,7 @@
 			)
 		)
 		(path "/52c49487-f3d5-40e2-8f19-e7b81498d838/b60dbe54-cc8d-41e8-a58f-7ed786c2d339")
-		(sheetname "GPIO")
+		(sheetname "/GPIO/")
 		(sheetfile "gpio-mux.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13937,7 +13937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13965,7 +13965,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/2b0ee639-61bc-4cdb-9d96-bafc808328f5")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14138,7 +14138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14166,7 +14166,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/585e2915-648a-42cc-a07b-7568b7b26647")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14341,7 +14341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14369,7 +14369,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/769a9779-f262-467c-94af-f4a437d85216")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -14501,7 +14501,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/bd0c041d-e61c-40c4-9091-2da40a5b692f")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14736,7 +14736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14764,7 +14764,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/4622b451-d918-40cf-981d-52d90e281faf")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14937,7 +14937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14965,7 +14965,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/292fb8bc-bd0c-4ff8-91f3-645bb21cd82d")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15138,7 +15138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15166,7 +15166,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/6394b7c2-5a99-4106-8e7c-f5a2f46a12a1")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15339,7 +15339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15367,7 +15367,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/da1f6f09-1e7b-4af1-94ef-220d21abf911")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15567,7 +15567,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/26d6dd90-74d7-4602-a774-7dbb93d5613a")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15844,7 +15844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15872,7 +15872,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/117a7b39-d858-4564-a427-75c79fe93f9b")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16283,7 +16283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 60)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16311,7 +16311,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/8aaf54f7-1ab7-4236-a4d2-a86b9445b40c")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16668,7 +16668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16696,7 +16696,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/d30a969b-926b-46a7-bde5-51c5fc67a0b2")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -16813,7 +16813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16841,7 +16841,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/72dd63f6-3267-456b-a1a3-d0f03d31c8b4")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -16972,7 +16972,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/12a0cf9e-e047-4d42-829e-62c9f2d78f6d")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17276,7 +17276,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/f6e2f4c3-eeea-40b7-9db4-83c0b247cea4")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17508,7 +17508,7 @@
 			)
 		)
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/d193095e-f6ab-4c01-8b68-3f46a3dd834e")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17811,7 +17811,7 @@
 			)
 		)
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/cb969792-8ffe-49c6-9ef5-7370eb440259")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18087,7 +18087,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18115,7 +18115,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/e1c76169-bfa0-4eca-836d-9e492ab0cd1c")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18315,7 +18315,7 @@
 			)
 		)
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/1cc73f59-14f8-4b76-b09e-031271439506")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18554,7 +18554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18582,7 +18582,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/3108e18a-8794-4778-bff9-8ec65f6bbee1")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18804,7 +18804,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/44e139ca-cdb6-480d-9ed9-729d7ffa20f8")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19080,7 +19080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19108,7 +19108,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/ce4d4e6f-c52b-4dd3-8913-c12f0a7bb2e6")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19279,7 +19279,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 240)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19307,7 +19307,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0cf24a85-001c-4e25-9a5a-5c688cf83ea7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -19598,7 +19598,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19626,7 +19626,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/42f0dca7-809a-4159-95e0-0d4ebe5f908a")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19797,7 +19797,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19824,7 +19824,7 @@
 			)
 		)
 		(path "/5c263feb-d001-446f-b631-5938ee426920")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20477,7 +20477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20505,7 +20505,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/f848a5b3-87c6-4243-8c83-bdfc1b89ad4a")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20678,7 +20678,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20706,7 +20706,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/011580cb-968c-402a-925e-01533b564af7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20880,7 +20880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20907,7 +20907,7 @@
 			)
 		)
 		(path "/d62e8002-0a10-41e4-8544-689a477582ed")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_rect
@@ -21157,7 +21157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21185,7 +21185,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/da60c177-f10c-4470-b2ab-33a5224f8f01")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21385,7 +21385,7 @@
 			)
 		)
 		(path "/52c49487-f3d5-40e2-8f19-e7b81498d838/436f72e0-3d49-4822-8adf-2036f339f039")
-		(sheetname "GPIO")
+		(sheetname "/GPIO/")
 		(sheetfile "gpio-mux.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21877,7 +21877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21905,7 +21905,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/50db7be7-fbdd-44d4-823b-caeddf84d8f1")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22106,7 +22106,7 @@
 		)
 		(property ki_fp_filters "Texas*S?PWQFN?N*EP*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/b4e2060b-dfd4-4f41-83e7-5ddedc270253")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -22707,7 +22707,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22735,7 +22735,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/2b941f2e-55ae-4626-8d01-6fdba7c504f8")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22908,7 +22908,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22936,7 +22936,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/52c49487-f3d5-40e2-8f19-e7b81498d838/cb9dab45-efe0-4b89-90ce-d30c95a5e935")
-		(sheetname "GPIO")
+		(sheetname "/GPIO/")
 		(sheetfile "gpio-mux.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23137,7 +23137,7 @@
 		)
 		(property ki_fp_filters "WQFN*1EP*2.5x2.5mm*P0.5mm*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/c2e7e2ae-48d6-4c3c-8318-7fbd17a3758f")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23530,7 +23530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23558,7 +23558,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/013b9deb-7152-425b-aabf-53087e111cbb")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23971,7 +23971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23999,7 +23999,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/a5e306e8-3926-4280-963f-77c791d05ce2")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -24103,7 +24103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 120)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24131,7 +24131,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/9e809432-569e-4530-90de-9adc26d18a25")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24306,7 +24306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24334,7 +24334,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/fba75c7a-d285-48bb-aab0-953eb0713da9")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -24449,7 +24449,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24477,7 +24477,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/c05539af-210a-4a93-bb86-c73fce911ecd")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd dnp)
 		(fp_line
@@ -24651,7 +24651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 60)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24679,7 +24679,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/5858d976-8ba9-47e0-8ef7-00cebba72355")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25091,7 +25091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25119,7 +25119,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/698fc4af-1d24-4638-963a-42ad5a6b85fa")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25292,7 +25292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25320,7 +25320,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/cef7e8b3-e421-4dfe-acee-dd65eb9ba13f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25521,7 +25521,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/9fbcfc92-907c-4387-a9e8-3683353c0bc6")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25754,7 +25754,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/b1e3b444-e152-4a79-a612-5999e6de7f0d")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25959,7 +25959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25987,7 +25987,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/52c49487-f3d5-40e2-8f19-e7b81498d838/1eb813bd-6d82-4391-9e42-8199c31c451b")
-		(sheetname "GPIO")
+		(sheetname "/GPIO/")
 		(sheetfile "gpio-mux.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26162,7 +26162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26190,7 +26190,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/3b1e3915-3869-4b28-a74c-405b55197759")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -26322,7 +26322,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/914d378b-0aa2-4b54-bc53-1e2cc1fbf258")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26557,7 +26557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26585,7 +26585,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/d24c483f-bd86-4979-8ff6-f871637009a3")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27085,7 +27085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27113,7 +27113,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/919f930f-eb3a-40cc-aee2-5f0fed941186")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -27217,7 +27217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27245,7 +27245,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/737414d2-ffdd-431e-9d9a-a277db685c60")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27418,7 +27418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27446,7 +27446,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/74049492-ba33-4975-80c4-3d8d163fe7c7")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27619,7 +27619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27647,7 +27647,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/193d5611-2893-4017-b47a-647a261f4d87")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27820,7 +27820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27848,7 +27848,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/bcfd1cd6-c847-48cb-96e4-13c3c6dcf031")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28022,7 +28022,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28050,7 +28050,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/3c61520d-2e50-4c09-85a8-a7b8c21f1bea")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28205,7 +28205,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28233,7 +28233,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/94b1a3ee-b516-4975-a765-6747200c1ba0")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28406,7 +28406,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28434,7 +28434,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/bdbf4233-b5ba-4c4d-aae2-5810f5f74231")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28634,7 +28634,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/23639b8c-00ba-48bc-a09e-c751d0ebfae8")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28910,7 +28910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 60)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28938,7 +28938,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/583a675a-80fe-41bf-8da9-a467d995ba12")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29111,7 +29111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29139,7 +29139,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/20bae14d-0eb6-4b49-99e1-5f830d2e2925")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29314,7 +29314,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29342,7 +29342,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/8f8fd37e-7c72-4931-b81e-808bb62a878a")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29497,7 +29497,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29524,7 +29524,7 @@
 			)
 		)
 		(path "/025e8b57-e84b-49b0-a265-a20d776b2f45")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30205,7 +30205,7 @@
 		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/0dc9afd1-c1ae-479f-814e-aba4aa86bbdf")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30462,7 +30462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30490,7 +30490,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/7a9bf043-1b89-40b3-9ff7-4fb127943259")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30691,7 +30691,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/47da6837-a871-4b52-bbf3-ba4c7f53130d")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30924,7 +30924,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/ced73c72-927a-4b3d-8ab5-cae5d418368a")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31129,7 +31129,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31157,7 +31157,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/8937b358-b28f-46dc-8cc7-41a72f349daf")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31330,7 +31330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31358,7 +31358,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/c31f3c00-c092-44d4-8915-f4ec7e48ac34")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31533,7 +31533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31561,7 +31561,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/a209e100-5a0d-4a29-9488-7a1e7503106c")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -31693,7 +31693,7 @@
 		)
 		(property ki_fp_filters "TSSOP*4.4x7.8mm*P0.65mm*")
 		(path "/5ae693f9-48f3-406c-bbdf-b76d81cc71eb/0723d73f-4fbc-4c34-b709-28d1ff0ea32d")
-		(sheetname "I2C")
+		(sheetname "/I2C/")
 		(sheetfile "base-i2c.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32146,7 +32146,7 @@
 		)
 		(property ki_fp_filters "QFN*1EP*7x7mm*P0.4mm*")
 		(path "/b83366fc-9fc9-416f-a142-9fef4ea47168")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33038,7 +33038,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/8d43f246-8a18-4948-bda5-82e1b51a5ad3")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33316,7 +33316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33344,7 +33344,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/bf4188c6-db73-4b3d-bfa1-2fad60a1b15d")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -33448,7 +33448,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33476,7 +33476,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/790871c8-3514-4dab-bfd9-58a5ffc65923")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33649,7 +33649,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33677,7 +33677,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/b4f7571c-9dd2-43c7-bd3e-bf6e9885100d")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33850,7 +33850,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33878,7 +33878,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/ed57df3b-8915-4e42-8566-4486d0923273")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34051,7 +34051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34079,7 +34079,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/f4a49d71-9597-443d-8f7a-3578369b8966")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34280,7 +34280,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/fda01c33-7297-4927-9361-3bfe33651fd6")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34515,7 +34515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34543,7 +34543,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/a5147626-b18c-478d-b579-0c78349ce2e0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34716,7 +34716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34744,7 +34744,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/4110bc88-1240-4986-8a61-c2304d9ae5ff")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34917,7 +34917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34945,7 +34945,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f094f029-00ec-41d9-a565-45c32e326bc4")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35118,7 +35118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35146,7 +35146,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/26f2018d-e622-4fd2-98ed-d2477ac5fd3d")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35346,7 +35346,7 @@
 			)
 		)
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/a9ec1a65-975f-4cef-bc59-7967247de610")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35650,7 +35650,7 @@
 		)
 		(property ki_fp_filters "LGA?12*2x2mm*P0.5mm*")
 		(path "/5ae693f9-48f3-406c-bbdf-b76d81cc71eb/f3a207a9-f03a-451b-b45a-46715bed5541")
-		(sheetname "I2C")
+		(sheetname "/I2C/")
 		(sheetfile "base-i2c.kicad_sch")
 		(attr smd dnp)
 		(fp_line
@@ -36012,7 +36012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36040,7 +36040,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/ddacb9a2-905c-4f27-8e99-eab4d4eddf90")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -36144,7 +36144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36172,7 +36172,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5b0c52c3-2d39-4039-8826-c365dbaacf31")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36343,7 +36343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36370,7 +36370,7 @@
 			)
 		)
 		(path "/d3fc1557-949b-41c3-985d-37c613ae07d0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37025,7 +37025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37053,7 +37053,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/63d2f03e-e28f-4024-a385-0f72e2303de8")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -37157,7 +37157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37185,7 +37185,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/90762f2f-b4d9-4697-9d3e-dee73215ba35")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37358,7 +37358,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37386,7 +37386,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/8e4e9a18-ce5c-4a57-b295-ddf6e946d50a")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37561,7 +37561,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37589,7 +37589,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/7baccfee-32c1-4bf2-a934-470bb4c179f2")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37744,7 +37744,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37772,7 +37772,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/489482e5-86cb-4660-806f-f3746169cb3c")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37945,7 +37945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37973,7 +37973,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/97ce14b9-ddd1-4371-b569-563fd9267562")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38147,7 +38147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38175,7 +38175,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/f4629383-0d1f-49fe-9b6f-dab52dafe503")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38588,7 +38588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38616,7 +38616,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b8fb5144-934e-4880-b788-db757857d6ca")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38790,7 +38790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 120)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38818,7 +38818,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/817a80f6-f64b-4c27-8873-12f8d434ec13")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39230,7 +39230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39258,7 +39258,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/3fa39e44-13f6-40d1-9d51-2dd1b3a991ad")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39431,7 +39431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39459,7 +39459,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/9d0398ea-1bcb-4889-8237-e6b2767436c1")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39632,7 +39632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39660,7 +39660,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/6373b5a7-981d-49c7-90b4-a90426a73619")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39860,7 +39860,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/6f7e4b97-fa99-48eb-b02b-58c0aea6059d")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40136,7 +40136,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40164,7 +40164,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/5ae693f9-48f3-406c-bbdf-b76d81cc71eb/2a4ea202-cd59-4d7e-ad43-7377b77ff9e6")
-		(sheetname "I2C")
+		(sheetname "/I2C/")
 		(sheetfile "base-i2c.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40337,7 +40337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40365,7 +40365,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/c8bc6d7c-b4d3-48e8-be83-0ede52e1f223")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40538,7 +40538,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40566,7 +40566,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/1a821d2e-c140-41c0-8121-c721ffbcb6f5")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40739,7 +40739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40767,7 +40767,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/79147cdf-4979-451c-b459-b0f8f939a244")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40940,7 +40940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40968,7 +40968,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/f9716725-02e4-43fc-9414-5695eb9744cc")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41169,7 +41169,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/53015ff3-2c11-4b2f-a6d5-d9eca529c61d")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41377,7 +41377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41405,7 +41405,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/dba69b0d-5305-4578-bf0a-e177fd212809")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41605,7 +41605,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/f26b9d5d-ab2f-43e4-8f58-21fa4c05aeb0")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41909,7 +41909,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/a5ba5c4d-f732-4929-b22b-729c8572ae7f")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42144,7 +42144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42172,7 +42172,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/8097bb4d-3c51-44bf-8f91-5e294e578f04")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42345,7 +42345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42373,7 +42373,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/01a5a1e2-a7b2-4328-a3c3-eace7c1fc364")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42574,7 +42574,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/5632f538-3e0d-483b-a2dc-be53fbe03a72")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42836,7 +42836,7 @@
 			)
 		)
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/8c08f555-eee1-41da-bb04-71d5bffeb8d0")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43139,7 +43139,7 @@
 			)
 		)
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/d6f767de-5fc0-413c-b8ba-b971ce8915c3")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43415,7 +43415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43443,7 +43443,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/6c739fb3-12db-49cf-9209-b0fad833b92b")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43643,7 +43643,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/61edf24a-5c77-4754-b312-6e87420b9e7c")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43919,7 +43919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43947,7 +43947,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/89fac4f0-950e-4192-92fd-ee1052d01721")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44120,7 +44120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44148,7 +44148,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/2067f4ee-0286-4dec-b9f3-eab26b7af79b")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44323,7 +44323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44351,7 +44351,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/35334d26-c60a-4490-bcdf-fce7d9c2e66d/9f1b5683-500b-4932-9d37-df311291b8c1")
-		(sheetname "bot-top-link")
+		(sheetname "/bot-top-link/")
 		(sheetfile "bot-top-link.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -44492,7 +44492,7 @@
 			)
 		)
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/19da2d46-3f9c-44b0-a980-87073968d2e6")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44718,7 +44718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44746,7 +44746,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/d5e83130-7459-4c00-857b-3f439396659f")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44919,7 +44919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44947,7 +44947,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/49913f05-b99f-4fca-aed4-6e0bad69019a")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -45147,7 +45147,7 @@
 			)
 		)
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/a269628f-dd1d-4438-9603-6f8640b4f983")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -45423,7 +45423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45451,7 +45451,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/5030dd37-6b43-4939-bd61-2e66260bf6da")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -45624,7 +45624,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45652,7 +45652,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/a5a4519c-2138-433c-b5d2-3a3abb02c338")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -45825,7 +45825,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45853,7 +45853,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8d687f7f-757b-4671-af27-965ae2209732")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "tildagon-base.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -46026,7 +46026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46054,7 +46054,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/febeaf27-8aaa-445d-863a-3f8ee5c51d55/be9ef29e-0481-4e02-afab-cac198dac20a")
-		(sheetname "USB")
+		(sheetname "/USB/")
 		(sheetfile "usb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -46227,7 +46227,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46255,7 +46255,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/9bed1315-869f-462f-8442-f0328f9c6f25")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -46456,7 +46456,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/bb615930-0803-4290-86ac-e6a5805a0f58")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -46719,7 +46719,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/6fb70d96-9605-4ce0-8240-c18acdf3484a/9b285be6-64ec-48f2-a077-d9c3a79de3f9")
-		(sheetname "SFPs")
+		(sheetname "/SFPs/")
 		(sheetfile "sfps.kicad_sch")
 		(attr smd)
 		(fp_line

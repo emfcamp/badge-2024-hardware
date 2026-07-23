@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6dcb0502-87e2-4c28-9ce8-81aab8925f06")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x08_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,69 +83,97 @@
 				)
 			)
 			(symbol "Conn_01x08_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -10.16) (xy 0.8636 -10.16)
-					)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 7.62) (xy 0.8636 7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -167,7 +197,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 7.62) (xy 0.8636 7.62)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -177,92 +207,64 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -10.033)
-					(end 0 -10.287)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -410,11 +412,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Antenna_Chip"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -499,7 +506,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 2.54 0)
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -523,10 +542,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -0.635) (xy 2.54 0)
+						(xy 1.27 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -547,10 +566,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
+						(xy 2.54 -0.635) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -560,18 +579,6 @@
 				(polyline
 					(pts
 						(xy 3.81 6.985) (xy 2.54 1.905) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -620,9 +627,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -695,7 +705,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -707,7 +717,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -756,11 +766,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -827,32 +842,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -864,8 +855,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -913,9 +928,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1034,11 +1052,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1119,10 +1142,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1131,9 +1153,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1179,6 +1202,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1258,7 +1282,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1275,6 +1300,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tildagon:ESP32-S3-PICO-1-N8R2"
 			(exclude_from_sim no)
@@ -1368,6 +1394,555 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 27.94 0)
+					(length 2.54)
+					(name "GPIO19/USBDM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 25.4 0)
+					(length 2.54)
+					(name "GPIO20/USBDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 20.32 0)
+					(length 2.54)
+					(name "U0TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 17.78 0)
+					(length 2.54)
+					(name "U0RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 2.54)
+					(name "GPIO47/SPICLK_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 2.54)
+					(name "GPIO48/SPICLK_n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "GPIO39/MTCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 2.54)
+					(name "GPIO40/MTDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 2.54)
+					(name "GPIO41/MTDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -5.08 0)
+					(length 2.54)
+					(name "GPIO42/MTMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -10.16 0)
+					(length 2.54)
+					(name "CHIP_PU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(hide yes)
+					(name "SPICS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -22.86 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -25.4 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -27.94 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -30.48 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -33.02 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -35.56 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 40.64 270)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDD3P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 40.64 270)
+					(length 2.54)
+					(name "VDD3P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 40.64 270)
+					(length 2.54)
+					(name "VDD3P3_RTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -40.64 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 40.64 270)
+					(length 2.54)
+					(name "VDD3P3_CPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 35.56 180)
+					(length 2.54)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 33.02 180)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 30.48 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 27.94 180)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 25.4 180)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1555,42 +2130,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -2.54 40.64 270)
-					(length 2.54) hide
-					(name "VDD3P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 40.64 270)
-					(length 2.54)
-					(name "VDD3P3_RTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 20.32 -2.54 180)
 					(length 2.54)
@@ -1664,42 +2203,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 27.94 0)
-					(length 2.54)
-					(name "GPIO19/USBDM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 25.4 0)
-					(length 2.54)
-					(name "GPIO20/USBDP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 20.32 -12.7 180)
 					(length 2.54)
 					(name "GPIO21"
@@ -1710,204 +2213,6 @@
 						)
 					)
 					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -17.78 -20.32 0)
-					(length 2.54) hide
-					(name "SPICS1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 20.32 -35.56 180)
-					(length 2.54)
-					(name "VDD_SPI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 40.64 270)
-					(length 2.54)
-					(name "VDD3P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -17.78 -22.86 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -17.78 -25.4 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -17.78 -27.94 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -17.78 -30.48 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -17.78 -33.02 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -17.78 -35.56 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 7.62 0)
-					(length 2.54)
-					(name "GPIO48/SPICLK_n"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 10.16 0)
-					(length 2.54)
-					(name "GPIO47/SPICLK_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1944,24 +2249,6 @@
 						)
 					)
 					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -10.16 0)
-					(length 2.54)
-					(name "CHIP_PU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2042,150 +2329,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 2.54 0)
-					(length 2.54)
-					(name "GPIO39/MTCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 0 0)
-					(length 2.54)
-					(name "GPIO40/MTDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 40.64 270)
-					(length 2.54)
-					(name "VDD3P3_CPU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -2.54 0)
-					(length 2.54)
-					(name "GPIO41/MTDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -5.08 0)
-					(length 2.54)
-					(name "GPIO42/MTMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -20.32 20.32 0)
-					(length 2.54)
-					(name "U0TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 35.56 180)
-					(length 2.54)
-					(name "GPIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 17.78 0)
-					(length 2.54)
-					(name "U0RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 20.32 -30.48 180)
 					(length 2.54)
 					(name "GPIO45"
@@ -2221,125 +2364,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -5.08 40.64 270)
+				(pin power_out line
+					(at 20.32 -35.56 180)
 					(length 2.54)
-					(name "VDDA"
+					(name "VDD_SPI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 40.64 270)
-					(length 2.54) hide
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -40.64 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 33.02 180)
-					(length 2.54)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 30.48 180)
-					(length 2.54)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 27.94 180)
-					(length 2.54)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 25.4 180)
-					(length 2.54)
-					(name "GPIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2348,6 +2383,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -4140,7 +4176,6 @@
 	)
 	(label "DEV_USB+"
 		(at 57.15 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4151,7 +4186,6 @@
 	)
 	(label "NF_HS1"
 		(at 93.98 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4162,7 +4196,6 @@
 	)
 	(label "USBSEL"
 		(at 57.15 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4173,7 +4206,6 @@
 	)
 	(label "ESP_TXD"
 		(at 90.17 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4184,7 +4216,6 @@
 	)
 	(label "USBSEL"
 		(at 231.14 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4195,7 +4226,6 @@
 	)
 	(label "NA_HS2"
 		(at 156.21 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4206,7 +4236,6 @@
 	)
 	(label "TOP_HS2"
 		(at 93.98 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4217,7 +4246,6 @@
 	)
 	(label "3V3_SYS"
 		(at 76.2 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4228,7 +4256,6 @@
 	)
 	(label "SCL_TOP"
 		(at 154.94 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4239,7 +4266,6 @@
 	)
 	(label "NC_HS3"
 		(at 53.34 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4250,7 +4276,6 @@
 	)
 	(label "~{BOOTLOADER}"
 		(at 156.21 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4261,7 +4286,6 @@
 	)
 	(label "TOP_HS3"
 		(at 93.98 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4272,7 +4296,6 @@
 	)
 	(label "~{INT_SYS}"
 		(at 93.98 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4283,7 +4306,6 @@
 	)
 	(label "NE_HS2"
 		(at 93.98 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4294,7 +4316,6 @@
 	)
 	(label "NA_HS3"
 		(at 156.21 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4305,7 +4326,6 @@
 	)
 	(label "NF_HS3"
 		(at 93.98 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4316,7 +4336,6 @@
 	)
 	(label "NC_HS1"
 		(at 93.98 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4327,7 +4346,6 @@
 	)
 	(label "~{ESPRESET}"
 		(at 40.64 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4338,7 +4356,6 @@
 	)
 	(label "ND_HS3"
 		(at 93.98 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4349,7 +4366,6 @@
 	)
 	(label "ESP_RXD"
 		(at 153.67 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4360,7 +4376,6 @@
 	)
 	(label "SDA_TOP"
 		(at 57.15 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4371,7 +4386,6 @@
 	)
 	(label "~{INT_SYS}"
 		(at 55.88 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4382,7 +4396,6 @@
 	)
 	(label "TOP_HS1"
 		(at 93.98 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4393,7 +4406,6 @@
 	)
 	(label "~{ESPRESET}"
 		(at 156.21 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4404,7 +4416,6 @@
 	)
 	(label "ND_HS2"
 		(at 93.98 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4415,7 +4426,6 @@
 	)
 	(label "DEV_USB+"
 		(at 90.17 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4426,7 +4436,6 @@
 	)
 	(label "VBUS_SW"
 		(at 231.14 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4437,7 +4446,6 @@
 	)
 	(label "NB_HS1"
 		(at 93.98 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4448,7 +4456,6 @@
 	)
 	(label "ESP_TXD"
 		(at 53.34 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4459,7 +4466,6 @@
 	)
 	(label "3V3_SYS"
 		(at 218.44 16.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4470,7 +4476,6 @@
 	)
 	(label "NE_HS1"
 		(at 156.21 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4481,7 +4486,6 @@
 	)
 	(label "SCL_HOST"
 		(at 114.3 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4492,7 +4496,6 @@
 	)
 	(label "NE_HS4"
 		(at 156.21 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4503,7 +4506,6 @@
 	)
 	(label "SCL_TOP"
 		(at 115.57 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4514,7 +4516,6 @@
 	)
 	(label "NE_HS3"
 		(at 93.98 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4525,7 +4526,6 @@
 	)
 	(label "LED_DATA"
 		(at 93.98 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4536,7 +4536,6 @@
 	)
 	(label "NC_HS2"
 		(at 93.98 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,7 +4546,6 @@
 	)
 	(label "~{QON}"
 		(at 54.61 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4558,7 +4556,6 @@
 	)
 	(label "I2C_RESET"
 		(at 114.3 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4569,7 +4566,6 @@
 	)
 	(label "SDA_SYS"
 		(at 115.57 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4580,7 +4576,6 @@
 	)
 	(label "VSYS"
 		(at 154.94 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4591,7 +4586,6 @@
 	)
 	(label "ESP_RXD"
 		(at 90.17 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4602,7 +4596,6 @@
 	)
 	(label "NB_HS3"
 		(at 93.98 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4613,7 +4606,6 @@
 	)
 	(label "INT_ACCEL"
 		(at 231.14 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4624,7 +4616,6 @@
 	)
 	(label "NA_HS4"
 		(at 156.21 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4635,7 +4626,6 @@
 	)
 	(label "NA_HS2"
 		(at 53.34 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4646,7 +4636,6 @@
 	)
 	(label "NF_HS2"
 		(at 156.21 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4657,7 +4646,6 @@
 	)
 	(label "TOP_HS4"
 		(at 154.94 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4668,7 +4656,6 @@
 	)
 	(label "ND_HS1"
 		(at 93.98 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4679,7 +4666,6 @@
 	)
 	(label "NF_HS1"
 		(at 156.21 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4690,7 +4676,6 @@
 	)
 	(label "SDA_TOP"
 		(at 115.57 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4701,7 +4686,6 @@
 	)
 	(label "NB_HS4"
 		(at 93.98 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4712,7 +4696,6 @@
 	)
 	(label "SDA_SYS"
 		(at 231.14 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4723,7 +4706,6 @@
 	)
 	(label "NF_HS4"
 		(at 156.21 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4734,7 +4716,6 @@
 	)
 	(label "NB_HS2"
 		(at 93.98 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4745,7 +4726,6 @@
 	)
 	(label "NF_HS2"
 		(at 93.98 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4756,7 +4736,6 @@
 	)
 	(label "TOP_HS3"
 		(at 154.94 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4767,7 +4746,6 @@
 	)
 	(label "NB_HS4"
 		(at 156.21 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4778,7 +4756,6 @@
 	)
 	(label "DEV_USB-"
 		(at 90.17 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4789,7 +4766,6 @@
 	)
 	(label "NE_HS1"
 		(at 93.98 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4800,7 +4776,6 @@
 	)
 	(label "NC_HS4"
 		(at 156.21 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4811,7 +4786,6 @@
 	)
 	(label "NB_HS1"
 		(at 156.21 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4822,7 +4796,6 @@
 	)
 	(label "3V3_SYS"
 		(at 128.27 17.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4833,7 +4806,6 @@
 	)
 	(label "~{BOOTLOADER}"
 		(at 90.17 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4844,7 +4816,6 @@
 	)
 	(label "NB_HS2"
 		(at 156.21 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4855,7 +4826,6 @@
 	)
 	(label "NC_HS2"
 		(at 156.21 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4866,7 +4836,6 @@
 	)
 	(label "TOP_HS1"
 		(at 154.94 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4877,7 +4846,6 @@
 	)
 	(label "ND_HS3"
 		(at 156.21 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4888,7 +4856,6 @@
 	)
 	(label "VSYS"
 		(at 54.61 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4899,7 +4866,6 @@
 	)
 	(label "NB_HS3"
 		(at 156.21 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4910,7 +4876,6 @@
 	)
 	(label "I2C_RESET"
 		(at 93.98 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4921,7 +4886,6 @@
 	)
 	(label "VBUS_SW"
 		(at 54.61 27.305 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4932,7 +4896,6 @@
 	)
 	(label "SDA_SYS"
 		(at 54.61 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4943,7 +4906,6 @@
 	)
 	(label "NC_HS3"
 		(at 156.21 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4954,7 +4916,6 @@
 	)
 	(label "USB-"
 		(at 46.99 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4965,7 +4926,6 @@
 	)
 	(label "ESP_RXD"
 		(at 66.04 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4976,7 +4936,6 @@
 	)
 	(label "USB+"
 		(at 58.42 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4987,7 +4946,6 @@
 	)
 	(label "~{INT_SYS}"
 		(at 97.79 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4998,7 +4956,6 @@
 	)
 	(label "ND_HS4"
 		(at 156.21 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5009,7 +4966,6 @@
 	)
 	(label "ESP_RXD"
 		(at 53.34 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5020,7 +4976,6 @@
 	)
 	(label "~{ESPRESET}"
 		(at 90.17 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5031,7 +4986,6 @@
 	)
 	(label "~{INT_SYS}"
 		(at 231.14 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5042,7 +4996,6 @@
 	)
 	(label "SDA_TOP"
 		(at 154.94 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5053,7 +5006,6 @@
 	)
 	(label "SDA_HOST"
 		(at 93.98 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5064,7 +5016,6 @@
 	)
 	(label "TOP_HS2"
 		(at 154.94 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5075,7 +5026,6 @@
 	)
 	(label "NA_HS1"
 		(at 156.21 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5086,7 +5036,6 @@
 	)
 	(label "INT_ACCEL"
 		(at 111.76 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5097,7 +5046,6 @@
 	)
 	(label "NA_HS3"
 		(at 53.34 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5108,7 +5056,6 @@
 	)
 	(label "NF_HS4"
 		(at 93.98 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5119,7 +5066,6 @@
 	)
 	(label "~{BOOTLOADER}"
 		(at 93.98 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5130,7 +5076,6 @@
 	)
 	(label "LED_DATA"
 		(at 154.94 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5141,7 +5086,6 @@
 	)
 	(label "USB+"
 		(at 46.99 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5152,7 +5096,6 @@
 	)
 	(label "SCL_SYS"
 		(at 115.57 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5163,7 +5106,6 @@
 	)
 	(label "ESP_TXD"
 		(at 66.04 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5174,7 +5116,6 @@
 	)
 	(label "NE_HS4"
 		(at 93.98 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5185,7 +5126,6 @@
 	)
 	(label "SCL_SYS"
 		(at 54.61 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5196,7 +5136,6 @@
 	)
 	(label "NE_HS3"
 		(at 156.21 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5207,7 +5146,6 @@
 	)
 	(label "NF_HS3"
 		(at 156.21 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5218,7 +5156,6 @@
 	)
 	(label "~{ESPRESET}"
 		(at 27.94 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5229,7 +5166,6 @@
 	)
 	(label "TOP_HS4"
 		(at 93.98 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5240,7 +5176,6 @@
 	)
 	(label "ND_HS2"
 		(at 156.21 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5251,7 +5186,6 @@
 	)
 	(label "ESP_TXD"
 		(at 153.67 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5262,7 +5196,6 @@
 	)
 	(label "3V3_SYS"
 		(at 35.56 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5273,7 +5206,6 @@
 	)
 	(label "NC_HS1"
 		(at 156.21 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5284,7 +5216,6 @@
 	)
 	(label "DEV_USB-"
 		(at 57.15 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5295,7 +5226,6 @@
 	)
 	(label "NA_HS4"
 		(at 53.34 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5306,7 +5236,6 @@
 	)
 	(label "SCL_HOST"
 		(at 93.98 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5317,7 +5246,6 @@
 	)
 	(label "3V3_SYS"
 		(at 154.94 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5328,7 +5256,6 @@
 	)
 	(label "ND_HS1"
 		(at 156.21 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5339,7 +5266,6 @@
 	)
 	(label "3V3_SYS"
 		(at 91.44 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5350,7 +5276,6 @@
 	)
 	(label "SCL_SYS"
 		(at 231.14 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5361,7 +5286,6 @@
 	)
 	(label "~{QON}"
 		(at 27.94 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5372,7 +5296,6 @@
 	)
 	(label "NA_HS1"
 		(at 53.34 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5383,7 +5306,6 @@
 	)
 	(label "SDA_HOST"
 		(at 114.3 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5394,7 +5316,6 @@
 	)
 	(label "USB-"
 		(at 58.42 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5405,7 +5326,6 @@
 	)
 	(label "VBUS"
 		(at 90.17 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,7 +5336,6 @@
 	)
 	(label "ND_HS4"
 		(at 93.98 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5427,7 +5346,6 @@
 	)
 	(label "VBUS"
 		(at 54.61 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5438,7 +5356,6 @@
 	)
 	(label "SCL_TOP"
 		(at 57.15 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5449,7 +5366,6 @@
 	)
 	(label "GND"
 		(at 90.17 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5460,7 +5376,6 @@
 	)
 	(label "NC_HS4"
 		(at 53.34 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5471,7 +5386,6 @@
 	)
 	(label "NE_HS2"
 		(at 156.21 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5482,7 +5396,6 @@
 	)
 	(label "~{BOOTLOADER}"
 		(at 27.94 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8222,6 +8135,10 @@
 	(sheet
 		(at 156.21 129.54)
 		(size 27.94 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8251,223 +8168,223 @@
 		)
 		(pin "LED_EN" input
 			(at 184.15 149.86 0)
+			(uuid "769ccd7f-b6c7-4519-a7d2-a921a19c4396")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "769ccd7f-b6c7-4519-a7d2-a921a19c4396")
 		)
 		(pin "LED_DATA" input
 			(at 156.21 130.81 180)
+			(uuid "8248a19f-c28e-4387-b208-564b85c2a024")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8248a19f-c28e-4387-b208-564b85c2a024")
 		)
 		(pin "TOP_VSYS_IN" input
 			(at 156.21 151.13 180)
+			(uuid "5784e403-37ab-479c-ab5e-6d61099277eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5784e403-37ab-479c-ab5e-6d61099277eb")
 		)
 		(pin "BTN1" bidirectional
 			(at 184.15 134.62 0)
+			(uuid "b59296e5-f0a7-4b08-b9f8-49e89732b6a6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b59296e5-f0a7-4b08-b9f8-49e89732b6a6")
 		)
 		(pin "BTN4" bidirectional
 			(at 184.15 142.24 0)
+			(uuid "adb18bd6-7a34-49dc-8849-67bd3f20377c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "adb18bd6-7a34-49dc-8849-67bd3f20377c")
 		)
 		(pin "BTN2" bidirectional
 			(at 184.15 137.16 0)
+			(uuid "321715bd-f859-429c-918b-719f8e6fe578")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "321715bd-f859-429c-918b-719f8e6fe578")
 		)
 		(pin "BTN3" bidirectional
 			(at 184.15 139.7 0)
+			(uuid "0342542a-5085-43d2-8d44-6f30460f918f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0342542a-5085-43d2-8d44-6f30460f918f")
 		)
 		(pin "BTN5" bidirectional
 			(at 184.15 144.78 0)
+			(uuid "d61f786b-49df-4521-9b07-7764de4b54ab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d61f786b-49df-4521-9b07-7764de4b54ab")
 		)
 		(pin "3V3_SYS" bidirectional
 			(at 156.21 133.35 180)
+			(uuid "373637d2-66d4-45af-a9ba-735af536a188")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "373637d2-66d4-45af-a9ba-735af536a188")
 		)
 		(pin "BTN6" bidirectional
 			(at 184.15 147.32 0)
+			(uuid "f5b6e6b9-2028-43f0-a074-9520ae3ee066")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f5b6e6b9-2028-43f0-a074-9520ae3ee066")
 		)
 		(pin "TOP_HS1" bidirectional
 			(at 156.21 135.89 180)
+			(uuid "99778f01-2585-4657-b9aa-faf3a1b2ac4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "99778f01-2585-4657-b9aa-faf3a1b2ac4c")
 		)
 		(pin "TOP_HS2" bidirectional
 			(at 156.21 138.43 180)
+			(uuid "d66f3553-f496-437e-b8a8-c318073c0374")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d66f3553-f496-437e-b8a8-c318073c0374")
 		)
 		(pin "TOP_HS3" bidirectional
 			(at 156.21 140.97 180)
+			(uuid "debc01a1-0f1a-451f-b1b5-0cd9d9e8c926")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "debc01a1-0f1a-451f-b1b5-0cd9d9e8c926")
 		)
 		(pin "TOP_HS4" bidirectional
 			(at 156.21 143.51 180)
+			(uuid "e67f5e77-5dd4-4cd3-926f-73d959fb965e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e67f5e77-5dd4-4cd3-926f-73d959fb965e")
 		)
 		(pin "TOP_SDA" bidirectional
 			(at 156.21 146.05 180)
+			(uuid "42a5855e-9080-4d40-af5d-5c750e2a1ec0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42a5855e-9080-4d40-af5d-5c750e2a1ec0")
 		)
 		(pin "TOP_LS1" bidirectional
 			(at 184.15 152.4 0)
+			(uuid "9e792afb-514d-48c2-82c8-7ba766490b74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9e792afb-514d-48c2-82c8-7ba766490b74")
 		)
 		(pin "TOP_LS2" bidirectional
 			(at 184.15 154.94 0)
+			(uuid "54c59fa3-53ae-4b5a-8663-e5fdbd389b68")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "54c59fa3-53ae-4b5a-8663-e5fdbd389b68")
 		)
 		(pin "TOP_SCL" bidirectional
 			(at 156.21 148.59 180)
+			(uuid "decc357d-2e33-4b5c-8f70-37dc7aa87ff8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "decc357d-2e33-4b5c-8f70-37dc7aa87ff8")
 		)
 		(pin "BOOTLOAD" bidirectional
 			(at 156.21 153.67 180)
+			(uuid "f1991f14-15dd-46c2-a923-652a2d7db6aa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f1991f14-15dd-46c2-a923-652a2d7db6aa")
 		)
 		(pin "RESET" bidirectional
 			(at 156.21 156.21 180)
+			(uuid "cf6800bf-0b2b-4339-9c49-759ebdbb4230")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cf6800bf-0b2b-4339-9c49-759ebdbb4230")
 		)
 		(pin "TXOUT" bidirectional
 			(at 156.21 158.75 180)
+			(uuid "aa9947ff-f74a-4ef0-a631-1ee35c264c0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aa9947ff-f74a-4ef0-a631-1ee35c264c0d")
 		)
 		(pin "RXIN" bidirectional
 			(at 156.21 161.29 180)
+			(uuid "685b2f7d-793c-43cf-bcf2-a0f7d09a0a05")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "685b2f7d-793c-43cf-bcf2-a0f7d09a0a05")
 		)
 		(instances
 			(project "tildagon-base"
@@ -8480,6 +8397,10 @@
 	(sheet
 		(at 205.74 20.32)
 		(size 25.4 138.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8509,523 +8430,523 @@
 		)
 		(pin "BLS2" bidirectional
 			(at 205.74 52.07 180)
+			(uuid "c1068410-19ab-42f8-914f-8678cf1b3e55")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c1068410-19ab-42f8-914f-8678cf1b3e55")
 		)
 		(pin "ALS1" bidirectional
 			(at 205.74 36.83 180)
+			(uuid "1131506f-30ce-4705-b274-f3a1a384df81")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1131506f-30ce-4705-b274-f3a1a384df81")
 		)
 		(pin "ALS2" bidirectional
 			(at 205.74 39.37 180)
+			(uuid "8c660574-3167-444c-9880-a8b338779b27")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8c660574-3167-444c-9880-a8b338779b27")
 		)
 		(pin "BTN1" bidirectional
 			(at 205.74 134.62 180)
+			(uuid "47f951a3-f60e-48e2-af07-30ba005a7276")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "47f951a3-f60e-48e2-af07-30ba005a7276")
 		)
 		(pin "BTN2" bidirectional
 			(at 205.74 137.16 180)
+			(uuid "bf785005-6ac9-4476-97bb-600c94890a8e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bf785005-6ac9-4476-97bb-600c94890a8e")
 		)
 		(pin "ALS5" bidirectional
 			(at 205.74 46.99 180)
+			(uuid "4e2ff067-9ca7-42b6-aec8-bcc059a4a3a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4e2ff067-9ca7-42b6-aec8-bcc059a4a3a5")
 		)
 		(pin "ALS4" bidirectional
 			(at 205.74 44.45 180)
+			(uuid "428a86dc-e166-4118-b6e9-9ca7a8831581")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "428a86dc-e166-4118-b6e9-9ca7a8831581")
 		)
 		(pin "DET_A" bidirectional
 			(at 205.74 21.59 180)
+			(uuid "14880441-5d9b-4854-b2f5-7ea00612fdd0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "14880441-5d9b-4854-b2f5-7ea00612fdd0")
 		)
 		(pin "DET_B" bidirectional
 			(at 205.74 24.13 180)
+			(uuid "1baf37a8-9708-48ab-9267-12d18d1f8344")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1baf37a8-9708-48ab-9267-12d18d1f8344")
 		)
 		(pin "BLS1" bidirectional
 			(at 205.74 49.53 180)
+			(uuid "bea37f61-fc96-485e-a5b4-7f814023ccfe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bea37f61-fc96-485e-a5b4-7f814023ccfe")
 		)
 		(pin "BLS4" bidirectional
 			(at 205.74 57.15 180)
+			(uuid "e56c78e5-b69b-4fd0-8b7d-aef8b58ea703")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e56c78e5-b69b-4fd0-8b7d-aef8b58ea703")
 		)
 		(pin "BLS5" bidirectional
 			(at 205.74 59.69 180)
+			(uuid "2a24050b-908a-4d7a-b8a9-c120ad5d6042")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2a24050b-908a-4d7a-b8a9-c120ad5d6042")
 		)
 		(pin "BLS3" bidirectional
 			(at 205.74 54.61 180)
+			(uuid "a42bbd42-c2a1-44b2-95bc-a314568a6a4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a42bbd42-c2a1-44b2-95bc-a314568a6a4f")
 		)
 		(pin "LED_PWR_EN" bidirectional
 			(at 205.74 149.86 180)
+			(uuid "97790a5b-55d3-4abb-8d5c-ba6e14b3984a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "97790a5b-55d3-4abb-8d5c-ba6e14b3984a")
 		)
 		(pin "ALS3" bidirectional
 			(at 205.74 41.91 180)
+			(uuid "d1cfbe64-74c9-406b-98a3-c493a149e2f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d1cfbe64-74c9-406b-98a3-c493a149e2f7")
 		)
 		(pin "CLS5" bidirectional
 			(at 205.74 72.39 180)
+			(uuid "994ff841-7e4a-4abb-84c7-8e83c55e2a35")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "994ff841-7e4a-4abb-84c7-8e83c55e2a35")
 		)
 		(pin "DET_E" bidirectional
 			(at 205.74 31.75 180)
+			(uuid "92789f38-b6d1-4741-99a7-50e789d77703")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "92789f38-b6d1-4741-99a7-50e789d77703")
 		)
 		(pin "DET_D" bidirectional
 			(at 205.74 29.21 180)
+			(uuid "0961a483-bbfb-4f23-a0cd-f61f7e67eeb1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0961a483-bbfb-4f23-a0cd-f61f7e67eeb1")
 		)
 		(pin "DET_C" bidirectional
 			(at 205.74 26.67 180)
+			(uuid "933c6822-0d5f-45cd-ae1c-533675d09d30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "933c6822-0d5f-45cd-ae1c-533675d09d30")
 		)
 		(pin "DET_F" bidirectional
 			(at 205.74 34.29 180)
+			(uuid "aee1071f-96cc-4a34-b4ef-ee105a323959")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aee1071f-96cc-4a34-b4ef-ee105a323959")
 		)
 		(pin "CLS3" bidirectional
 			(at 205.74 67.31 180)
+			(uuid "59ea4cab-36b5-4706-a0a3-a1acb335b170")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "59ea4cab-36b5-4706-a0a3-a1acb335b170")
 		)
 		(pin "CLS2" bidirectional
 			(at 205.74 64.77 180)
+			(uuid "8c1aa93c-8dee-4413-809f-a334569fa5de")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8c1aa93c-8dee-4413-809f-a334569fa5de")
 		)
 		(pin "CLS4" bidirectional
 			(at 205.74 69.85 180)
+			(uuid "3c97f42f-6acd-4d0d-8a6c-80210a887134")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3c97f42f-6acd-4d0d-8a6c-80210a887134")
 		)
 		(pin "CLS1" bidirectional
 			(at 205.74 62.23 180)
+			(uuid "adc3bd02-8f17-4bec-b41e-97deda479441")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "adc3bd02-8f17-4bec-b41e-97deda479441")
 		)
 		(pin "BTN3" bidirectional
 			(at 205.74 139.7 180)
+			(uuid "1d24ae77-e6cc-4250-b2ff-266836f5ba7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1d24ae77-e6cc-4250-b2ff-266836f5ba7f")
 		)
 		(pin "BTN4" bidirectional
 			(at 205.74 142.24 180)
+			(uuid "1a2a4d08-c048-4ec2-ac35-1eb578502d5f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1a2a4d08-c048-4ec2-ac35-1eb578502d5f")
 		)
 		(pin "BTN5" bidirectional
 			(at 205.74 144.78 180)
+			(uuid "b97a9830-23f5-4e80-b889-8a9d6725f6e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b97a9830-23f5-4e80-b889-8a9d6725f6e1")
 		)
 		(pin "BTN6" bidirectional
 			(at 205.74 147.32 180)
+			(uuid "4866753a-1535-44b9-a0db-a3ac888faf2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4866753a-1535-44b9-a0db-a3ac888faf2f")
 		)
 		(pin "DLS5" bidirectional
 			(at 205.74 85.09 180)
+			(uuid "ee31f785-3623-4df9-938e-721fd07eee1d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ee31f785-3623-4df9-938e-721fd07eee1d")
 		)
 		(pin "DLS1" bidirectional
 			(at 205.74 74.93 180)
+			(uuid "58510495-a2e6-4b07-a565-25d2d914ff30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "58510495-a2e6-4b07-a565-25d2d914ff30")
 		)
 		(pin "DLS2" bidirectional
 			(at 205.74 77.47 180)
+			(uuid "29ac06ca-c86c-45b7-a0fe-fbc83dbfef6c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "29ac06ca-c86c-45b7-a0fe-fbc83dbfef6c")
 		)
 		(pin "DLS3" bidirectional
 			(at 205.74 80.01 180)
+			(uuid "c60a22a2-462e-448f-9401-1deface257df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c60a22a2-462e-448f-9401-1deface257df")
 		)
 		(pin "DLS4" bidirectional
 			(at 205.74 82.55 180)
+			(uuid "c044cff4-e36a-4b1d-a238-c87056d8476d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c044cff4-e36a-4b1d-a238-c87056d8476d")
 		)
 		(pin "ELS1" bidirectional
 			(at 205.74 87.63 180)
+			(uuid "0ec2219d-7e19-44c2-9dc1-a056cdfba102")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0ec2219d-7e19-44c2-9dc1-a056cdfba102")
 		)
 		(pin "ELS2" bidirectional
 			(at 205.74 90.17 180)
+			(uuid "b03d510a-34d4-4a9e-9443-5a118a5317a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b03d510a-34d4-4a9e-9443-5a118a5317a5")
 		)
 		(pin "ELS3" bidirectional
 			(at 205.74 92.71 180)
+			(uuid "d5431f47-de70-42fb-ae49-92be2447006a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d5431f47-de70-42fb-ae49-92be2447006a")
 		)
 		(pin "ELS4" bidirectional
 			(at 205.74 95.25 180)
+			(uuid "18c139b1-cca1-456a-b851-465f515d37c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "18c139b1-cca1-456a-b851-465f515d37c8")
 		)
 		(pin "ELS5" bidirectional
 			(at 205.74 97.79 180)
+			(uuid "f0caca80-5af2-40fb-a062-23d4c2a7a8e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f0caca80-5af2-40fb-a062-23d4c2a7a8e3")
 		)
 		(pin "FLS1" bidirectional
 			(at 205.74 100.33 180)
+			(uuid "74b5bc64-0f92-41d5-a293-9f1e912a4c1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "74b5bc64-0f92-41d5-a293-9f1e912a4c1e")
 		)
 		(pin "FLS5" bidirectional
 			(at 205.74 110.49 180)
+			(uuid "6fea3994-23df-4cc5-854a-7b3ffc9d34b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6fea3994-23df-4cc5-854a-7b3ffc9d34b4")
 		)
 		(pin "FLS3" bidirectional
 			(at 205.74 105.41 180)
+			(uuid "a8d41d28-bdd6-4927-9739-2212d17dae2a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a8d41d28-bdd6-4927-9739-2212d17dae2a")
 		)
 		(pin "FLS4" bidirectional
 			(at 205.74 107.95 180)
+			(uuid "eb042d9f-b4c6-451a-8e6e-6533361afb37")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "eb042d9f-b4c6-451a-8e6e-6533361afb37")
 		)
 		(pin "FLS2" bidirectional
 			(at 205.74 102.87 180)
+			(uuid "298ca954-b61c-40d8-9d90-99d887ffeeab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "298ca954-b61c-40d8-9d90-99d887ffeeab")
 		)
 		(pin "3V3_SYS" input
 			(at 218.44 20.32 90)
+			(uuid "1954db72-754c-4ea6-8c76-62cdb3fc2dab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1954db72-754c-4ea6-8c76-62cdb3fc2dab")
 		)
 		(pin "SDA_SYS" input
 			(at 231.14 31.75 0)
+			(uuid "de264d9f-ac43-40cc-8160-b358d7947a3f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "de264d9f-ac43-40cc-8160-b358d7947a3f")
 		)
 		(pin "~{INT_SYS}" bidirectional
 			(at 231.14 34.29 0)
+			(uuid "abc3dd35-7df6-4828-b416-35cdec491299")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "abc3dd35-7df6-4828-b416-35cdec491299")
 		)
 		(pin "SCL_SYS" input
 			(at 231.14 29.21 0)
+			(uuid "88a62a1c-7148-45a8-bc2f-ee7b315f3765")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "88a62a1c-7148-45a8-bc2f-ee7b315f3765")
 		)
 		(pin "TLS1" bidirectional
 			(at 205.74 152.4 180)
+			(uuid "f229dc85-deb3-4045-b22d-0faed9aa9bd4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f229dc85-deb3-4045-b22d-0faed9aa9bd4")
 		)
 		(pin "TLS2" bidirectional
 			(at 205.74 154.94 180)
+			(uuid "9e7d55e6-c760-48b8-b1da-c1e68dd65438")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9e7d55e6-c760-48b8-b1da-c1e68dd65438")
 		)
 		(pin "USBSEL" bidirectional
 			(at 231.14 36.83 0)
+			(uuid "53dbf671-f19c-4abc-b788-4da3f2423370")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "53dbf671-f19c-4abc-b788-4da3f2423370")
 		)
 		(pin "INT_ACCEL" bidirectional
 			(at 231.14 39.37 0)
+			(uuid "c9dbde05-76c5-4761-86f9-8d2f4ee78737")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c9dbde05-76c5-4761-86f9-8d2f4ee78737")
 		)
 		(pin "VBUS_SW" bidirectional
 			(at 231.14 41.91 0)
+			(uuid "8389b6c6-e92a-4d26-b26f-a20b02fe1530")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8389b6c6-e92a-4d26-b26f-a20b02fe1530")
 		)
 		(instances
 			(project "tildagon-base"
@@ -9038,6 +8959,10 @@
 	(sheet
 		(at 116.84 20.32)
 		(size 20.32 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -9067,213 +8992,213 @@
 		)
 		(pin "SCL_A" output
 			(at 137.16 22.86 0)
+			(uuid "4253946b-9388-44fe-beff-003623d03363")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4253946b-9388-44fe-beff-003623d03363")
 		)
 		(pin "SDA_A" bidirectional
 			(at 137.16 25.4 0)
+			(uuid "b2226353-b052-42c0-8663-0e54427f31f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b2226353-b052-42c0-8663-0e54427f31f2")
 		)
 		(pin "SCL_B" output
 			(at 137.16 27.94 0)
+			(uuid "f84709f4-b224-4230-97cd-03ee84d5d820")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f84709f4-b224-4230-97cd-03ee84d5d820")
 		)
 		(pin "SDA_B" bidirectional
 			(at 137.16 30.48 0)
+			(uuid "0fc0462d-cfa2-4716-b2f0-796795515bce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0fc0462d-cfa2-4716-b2f0-796795515bce")
 		)
 		(pin "SCL_C" output
 			(at 137.16 33.02 0)
+			(uuid "c029f507-0d23-4888-99e8-335a0bf25390")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c029f507-0d23-4888-99e8-335a0bf25390")
 		)
 		(pin "SDA_C" bidirectional
 			(at 137.16 35.56 0)
+			(uuid "c19049ec-4f40-4d6c-9c5d-2f96a6a99f89")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c19049ec-4f40-4d6c-9c5d-2f96a6a99f89")
 		)
 		(pin "SCL_D" output
 			(at 137.16 38.1 0)
+			(uuid "f4aa1379-e0f5-4b28-939b-47d31ef289b2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4aa1379-e0f5-4b28-939b-47d31ef289b2")
 		)
 		(pin "SDA_D" bidirectional
 			(at 137.16 40.64 0)
+			(uuid "6d4e72ed-bfd8-4b03-91b6-e64da170f690")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6d4e72ed-bfd8-4b03-91b6-e64da170f690")
 		)
 		(pin "SDA_E" bidirectional
 			(at 137.16 45.72 0)
+			(uuid "d876e4a0-5f76-4adf-bc54-04b0628a1311")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d876e4a0-5f76-4adf-bc54-04b0628a1311")
 		)
 		(pin "SCL_E" output
 			(at 137.16 43.18 0)
+			(uuid "9e05023c-4c2c-469b-808c-1318bed045e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9e05023c-4c2c-469b-808c-1318bed045e4")
 		)
 		(pin "SCL_F" output
 			(at 137.16 48.26 0)
+			(uuid "d0e3c45b-20e4-42c3-9da1-a87f3309b0b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d0e3c45b-20e4-42c3-9da1-a87f3309b0b5")
 		)
 		(pin "SDA_F" bidirectional
 			(at 137.16 50.8 0)
+			(uuid "97ad75b7-3923-4c92-a06d-c8735fcca0ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "97ad75b7-3923-4c92-a06d-c8735fcca0ac")
 		)
 		(pin "SDA_SYS" bidirectional
 			(at 116.84 25.4 180)
+			(uuid "ade1cdbf-def6-4044-a3c6-07433cfc90cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ade1cdbf-def6-4044-a3c6-07433cfc90cc")
 		)
 		(pin "SCL_SYS" output
 			(at 116.84 22.86 180)
+			(uuid "a8e8f765-dc27-49ac-9565-d3afb44d1b29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a8e8f765-dc27-49ac-9565-d3afb44d1b29")
 		)
 		(pin "3V3_SYS" input
 			(at 128.27 20.32 90)
+			(uuid "a2e8c93c-a143-41bf-b70e-f9f63b6a8d79")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2e8c93c-a143-41bf-b70e-f9f63b6a8d79")
 		)
 		(pin "SDA_TOP" bidirectional
 			(at 116.84 31.75 180)
+			(uuid "71569957-24a8-4003-b768-6e04679e61ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "71569957-24a8-4003-b768-6e04679e61ee")
 		)
 		(pin "SCL_TOP" output
 			(at 116.84 29.21 180)
+			(uuid "2170f056-24d5-4c6e-a4ac-7da97d04c0f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2170f056-24d5-4c6e-a4ac-7da97d04c0f9")
 		)
 		(pin "SDA_HOST" bidirectional
 			(at 116.84 38.1 180)
+			(uuid "98cf1441-1d09-4fa7-b1f6-482facba7cbb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "98cf1441-1d09-4fa7-b1f6-482facba7cbb")
 		)
 		(pin "SCL_HOST" input
 			(at 116.84 35.56 180)
+			(uuid "c020da16-633c-4008-8faa-bd29c3519167")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c020da16-633c-4008-8faa-bd29c3519167")
 		)
 		(pin "I2C_RESET" input
 			(at 116.84 40.64 180)
+			(uuid "820888ab-daea-404e-92d1-c383a725bc0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "820888ab-daea-404e-92d1-c383a725bc0a")
 		)
 		(pin "ACCEL_INT" bidirectional
 			(at 116.84 45.72 180)
+			(uuid "c7efceb9-abab-4013-9692-57886b07ed84")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c7efceb9-abab-4013-9692-57886b07ed84")
 		)
 		(instances
 			(project "tildagon-base"
@@ -9286,6 +9211,10 @@
 	(sheet
 		(at 157.48 20.32)
 		(size 27.94 101.6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -9315,723 +9244,723 @@
 		)
 		(pin "ND_PS_A" tri_state
 			(at 185.42 21.59 0)
+			(uuid "a079544b-f94d-4410-8412-0ae4e871bf0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a079544b-f94d-4410-8412-0ae4e871bf0d")
 		)
 		(pin "ND_PS_B" tri_state
 			(at 185.42 24.13 0)
+			(uuid "d6b21ee3-8039-4345-a5f0-907f1d8d8c78")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d6b21ee3-8039-4345-a5f0-907f1d8d8c78")
 		)
 		(pin "ND_PS_C" tri_state
 			(at 185.42 26.67 0)
+			(uuid "3c657cf9-b391-4eae-8430-156dda542d8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3c657cf9-b391-4eae-8430-156dda542d8d")
 		)
 		(pin "BH2" bidirectional
 			(at 157.48 73.66 180)
+			(uuid "2645a1d8-de81-4fdb-92bc-07d209f0c79a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2645a1d8-de81-4fdb-92bc-07d209f0c79a")
 		)
 		(pin "BH1" bidirectional
 			(at 157.48 71.12 180)
+			(uuid "0b97ca00-b5db-48aa-a774-751946194254")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0b97ca00-b5db-48aa-a774-751946194254")
 		)
 		(pin "BH4" bidirectional
 			(at 157.48 78.74 180)
+			(uuid "c9915a5b-7727-45e6-9fad-b0364c0f09be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c9915a5b-7727-45e6-9fad-b0364c0f09be")
 		)
 		(pin "BH3" bidirectional
 			(at 157.48 76.2 180)
+			(uuid "8ce5736d-b744-415b-ba59-bc6b444a03c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8ce5736d-b744-415b-ba59-bc6b444a03c3")
 		)
 		(pin "AH3" bidirectional
 			(at 157.48 66.04 180)
+			(uuid "82395af7-f3ca-4fcf-89ea-d9bb247aa000")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "82395af7-f3ca-4fcf-89ea-d9bb247aa000")
 		)
 		(pin "AH1" bidirectional
 			(at 157.48 60.96 180)
+			(uuid "cfea2922-2956-4bbf-924e-0f0ee6634f9b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cfea2922-2956-4bbf-924e-0f0ee6634f9b")
 		)
 		(pin "AH2" bidirectional
 			(at 157.48 63.5 180)
+			(uuid "1be46077-2df6-4234-af06-2e3a6a593103")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1be46077-2df6-4234-af06-2e3a6a593103")
 		)
 		(pin "AH4" bidirectional
 			(at 157.48 68.58 180)
+			(uuid "40c4b64d-1569-48de-ab4d-cd807d2d4472")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "40c4b64d-1569-48de-ab4d-cd807d2d4472")
 		)
 		(pin "ALS4" bidirectional
 			(at 185.42 44.45 0)
+			(uuid "5ab713fd-92a8-4ab2-a8c8-e18fc00dc8f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5ab713fd-92a8-4ab2-a8c8-e18fc00dc8f3")
 		)
 		(pin "ALS3" bidirectional
 			(at 185.42 41.91 0)
+			(uuid "1a7eff82-6e18-41eb-b4ec-e4c97aa44c1c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1a7eff82-6e18-41eb-b4ec-e4c97aa44c1c")
 		)
 		(pin "ALS5" bidirectional
 			(at 185.42 46.99 0)
+			(uuid "ca55db4b-960c-47b7-9844-fc9620baddd5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ca55db4b-960c-47b7-9844-fc9620baddd5")
 		)
 		(pin "ALS1" bidirectional
 			(at 185.42 36.83 0)
+			(uuid "ec864780-4097-4b26-b68e-0c99f1aa0181")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ec864780-4097-4b26-b68e-0c99f1aa0181")
 		)
 		(pin "ALS2" bidirectional
 			(at 185.42 39.37 0)
+			(uuid "7d907cfc-1ec5-40a3-9a53-0b7f5e4144e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d907cfc-1ec5-40a3-9a53-0b7f5e4144e0")
 		)
 		(pin "SDA_A" bidirectional
 			(at 157.48 25.4 180)
+			(uuid "88538a09-bc46-445b-a645-670f4405f688")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "88538a09-bc46-445b-a645-670f4405f688")
 		)
 		(pin "SCL_A" bidirectional
 			(at 157.48 22.86 180)
+			(uuid "294d1322-1ab4-4e04-a763-0692c010177b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "294d1322-1ab4-4e04-a763-0692c010177b")
 		)
 		(pin "SDA_B" bidirectional
 			(at 157.48 30.48 180)
+			(uuid "508654e2-e8ec-43a8-84b2-954101a4d15b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "508654e2-e8ec-43a8-84b2-954101a4d15b")
 		)
 		(pin "SCL_B" bidirectional
 			(at 157.48 27.94 180)
+			(uuid "92c80bd3-d428-4448-bdf0-60dd68fac40c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "92c80bd3-d428-4448-bdf0-60dd68fac40c")
 		)
 		(pin "BLS1" bidirectional
 			(at 185.42 49.53 0)
+			(uuid "f5e74046-9c17-424a-8a3d-c2aad2d91190")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f5e74046-9c17-424a-8a3d-c2aad2d91190")
 		)
 		(pin "BLS2" bidirectional
 			(at 185.42 52.07 0)
+			(uuid "bd838f4d-e207-4a32-b91f-b2241fd8a770")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bd838f4d-e207-4a32-b91f-b2241fd8a770")
 		)
 		(pin "BLS3" bidirectional
 			(at 185.42 54.61 0)
+			(uuid "15e4520d-1370-4277-bc4d-a96f496bdcfd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "15e4520d-1370-4277-bc4d-a96f496bdcfd")
 		)
 		(pin "BLS4" bidirectional
 			(at 185.42 57.15 0)
+			(uuid "d3719690-30fd-4c2a-be3d-fd55f3db5273")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d3719690-30fd-4c2a-be3d-fd55f3db5273")
 		)
 		(pin "BLS5" bidirectional
 			(at 185.42 59.69 0)
+			(uuid "8de2e54f-1e8d-4785-852a-64d281997317")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8de2e54f-1e8d-4785-852a-64d281997317")
 		)
 		(pin "SCL_C" bidirectional
 			(at 157.48 33.02 180)
+			(uuid "888de6b7-0d6a-4050-b4c9-65819fbe375f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "888de6b7-0d6a-4050-b4c9-65819fbe375f")
 		)
 		(pin "CLS3" bidirectional
 			(at 185.42 67.31 0)
+			(uuid "9d39a1ed-5373-483a-9384-21ecc2a5081a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9d39a1ed-5373-483a-9384-21ecc2a5081a")
 		)
 		(pin "CLS1" bidirectional
 			(at 185.42 62.23 0)
+			(uuid "eaf35963-606f-4039-885e-261980794525")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eaf35963-606f-4039-885e-261980794525")
 		)
 		(pin "CLS2" bidirectional
 			(at 185.42 64.77 0)
+			(uuid "c1b6421d-fd2a-496e-b215-13dd2d6a1399")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c1b6421d-fd2a-496e-b215-13dd2d6a1399")
 		)
 		(pin "SDA_C" bidirectional
 			(at 157.48 35.56 180)
+			(uuid "a40005a8-26bd-4be2-8c0e-f812ae4b13be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a40005a8-26bd-4be2-8c0e-f812ae4b13be")
 		)
 		(pin "CLS4" bidirectional
 			(at 185.42 69.85 0)
+			(uuid "7b353265-d22e-4e16-9994-fc5f6a21d733")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7b353265-d22e-4e16-9994-fc5f6a21d733")
 		)
 		(pin "CLS5" bidirectional
 			(at 185.42 72.39 0)
+			(uuid "24b706d3-20eb-4c0b-88c5-a318374a45b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "24b706d3-20eb-4c0b-88c5-a318374a45b6")
 		)
 		(pin "ND_PS_E" tri_state
 			(at 185.42 31.75 0)
+			(uuid "8f46b4e3-2790-4ee7-85c7-ab7b39ecba8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8f46b4e3-2790-4ee7-85c7-ab7b39ecba8b")
 		)
 		(pin "ND_PS_D" tri_state
 			(at 185.42 29.21 0)
+			(uuid "c817f245-4c85-408f-b111-3c5cfd801a0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c817f245-4c85-408f-b111-3c5cfd801a0b")
 		)
 		(pin "ND_PS_F" tri_state
 			(at 185.42 34.29 0)
+			(uuid "179dbb86-36b7-4b80-a8c7-2943a0b1ff1f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "179dbb86-36b7-4b80-a8c7-2943a0b1ff1f")
 		)
 		(pin "CH4" bidirectional
 			(at 157.48 88.9 180)
+			(uuid "1b632cec-a59b-4c0f-872c-76842a09fe90")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1b632cec-a59b-4c0f-872c-76842a09fe90")
 		)
 		(pin "CH3" bidirectional
 			(at 157.48 86.36 180)
+			(uuid "1cace99f-3d64-447a-b42e-e0db3d2fe8e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1cace99f-3d64-447a-b42e-e0db3d2fe8e9")
 		)
 		(pin "CH2" bidirectional
 			(at 157.48 83.82 180)
+			(uuid "a38242a6-e9b4-4ebf-9277-088a9d63c063")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a38242a6-e9b4-4ebf-9277-088a9d63c063")
 		)
 		(pin "CH1" bidirectional
 			(at 157.48 81.28 180)
+			(uuid "56aead7b-e647-43b8-9393-0835b43960ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "56aead7b-e647-43b8-9393-0835b43960ca")
 		)
 		(pin "DLS1" bidirectional
 			(at 185.42 74.93 0)
+			(uuid "00b4a78b-a9f4-4676-86a3-98dff3da9e17")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "00b4a78b-a9f4-4676-86a3-98dff3da9e17")
 		)
 		(pin "DLS2" bidirectional
 			(at 185.42 77.47 0)
+			(uuid "e3d9681f-265f-4ca6-aae0-aab1a64a981c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e3d9681f-265f-4ca6-aae0-aab1a64a981c")
 		)
 		(pin "DH4" bidirectional
 			(at 157.48 99.06 180)
+			(uuid "c12dce5e-a9e3-4aa6-bb19-ab59f84a670c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c12dce5e-a9e3-4aa6-bb19-ab59f84a670c")
 		)
 		(pin "DH3" bidirectional
 			(at 157.48 96.52 180)
+			(uuid "7a0d82a1-c638-4e05-ab78-47f2dffd7503")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7a0d82a1-c638-4e05-ab78-47f2dffd7503")
 		)
 		(pin "DH1" bidirectional
 			(at 157.48 91.44 180)
+			(uuid "5620137a-f3b1-4c44-b192-989e8aaa4dd7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5620137a-f3b1-4c44-b192-989e8aaa4dd7")
 		)
 		(pin "DH2" bidirectional
 			(at 157.48 93.98 180)
+			(uuid "b29dd359-8ba2-4142-8532-dec234a37c34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b29dd359-8ba2-4142-8532-dec234a37c34")
 		)
 		(pin "SDA_D" bidirectional
 			(at 157.48 40.64 180)
+			(uuid "0132f058-dae0-41c8-b6ff-0268e5a0af80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0132f058-dae0-41c8-b6ff-0268e5a0af80")
 		)
 		(pin "SCL_D" bidirectional
 			(at 157.48 38.1 180)
+			(uuid "c36f414e-d784-4870-8763-748750bc147d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c36f414e-d784-4870-8763-748750bc147d")
 		)
 		(pin "DLS4" bidirectional
 			(at 185.42 82.55 0)
+			(uuid "5ceed167-37d2-43fd-b10d-18e69c8ad49a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5ceed167-37d2-43fd-b10d-18e69c8ad49a")
 		)
 		(pin "DLS3" bidirectional
 			(at 185.42 80.01 0)
+			(uuid "13db945d-a7e3-4868-8fb4-8b77365fd372")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "13db945d-a7e3-4868-8fb4-8b77365fd372")
 		)
 		(pin "DLS5" bidirectional
 			(at 185.42 85.09 0)
+			(uuid "c3474d20-c321-4a36-b25b-c21bd1d58bd9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c3474d20-c321-4a36-b25b-c21bd1d58bd9")
 		)
 		(pin "ELS5" bidirectional
 			(at 185.42 97.79 0)
+			(uuid "0c982798-dcd8-4f83-a13e-e60cc98ffb52")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0c982798-dcd8-4f83-a13e-e60cc98ffb52")
 		)
 		(pin "ELS3" bidirectional
 			(at 185.42 92.71 0)
+			(uuid "b14ae33d-501d-439e-9e48-fde3bdfde59f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b14ae33d-501d-439e-9e48-fde3bdfde59f")
 		)
 		(pin "ELS4" bidirectional
 			(at 185.42 95.25 0)
+			(uuid "d3423c1b-f5ca-4516-ac47-dc4c00b9ba3f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d3423c1b-f5ca-4516-ac47-dc4c00b9ba3f")
 		)
 		(pin "ELS1" bidirectional
 			(at 185.42 87.63 0)
+			(uuid "522471d7-bcff-425c-b503-a09ddc367ca3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "522471d7-bcff-425c-b503-a09ddc367ca3")
 		)
 		(pin "ELS2" bidirectional
 			(at 185.42 90.17 0)
+			(uuid "ee708c08-d353-44d9-8508-c906a9a1ba5c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ee708c08-d353-44d9-8508-c906a9a1ba5c")
 		)
 		(pin "SDA_E" bidirectional
 			(at 157.48 45.72 180)
+			(uuid "52fb190c-4950-48bf-8ced-bfab140747b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "52fb190c-4950-48bf-8ced-bfab140747b3")
 		)
 		(pin "SCL_E" bidirectional
 			(at 157.48 43.18 180)
+			(uuid "a95b585a-0688-4731-b4b0-a0cdfe3d3990")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a95b585a-0688-4731-b4b0-a0cdfe3d3990")
 		)
 		(pin "EH1" bidirectional
 			(at 157.48 101.6 180)
+			(uuid "b1817945-6aa4-40f3-9e87-827f2438425d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b1817945-6aa4-40f3-9e87-827f2438425d")
 		)
 		(pin "EH2" bidirectional
 			(at 157.48 104.14 180)
+			(uuid "48c51d75-c5dd-4b3b-8b50-f8045c7f1f87")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "48c51d75-c5dd-4b3b-8b50-f8045c7f1f87")
 		)
 		(pin "EH3" bidirectional
 			(at 157.48 106.68 180)
+			(uuid "ab2da01c-be07-47f2-954e-c118c9ce2ebc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ab2da01c-be07-47f2-954e-c118c9ce2ebc")
 		)
 		(pin "EH4" bidirectional
 			(at 157.48 109.22 180)
+			(uuid "716a7c92-1f3d-4cfc-bd04-afb6a619da91")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "716a7c92-1f3d-4cfc-bd04-afb6a619da91")
 		)
 		(pin "FH1" bidirectional
 			(at 157.48 111.76 180)
+			(uuid "f050f830-8674-4333-9a4f-4557d42a64b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f050f830-8674-4333-9a4f-4557d42a64b6")
 		)
 		(pin "FH2" bidirectional
 			(at 157.48 114.3 180)
+			(uuid "d2051433-57db-4feb-aee1-828fb96724ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d2051433-57db-4feb-aee1-828fb96724ba")
 		)
 		(pin "FH3" bidirectional
 			(at 157.48 116.84 180)
+			(uuid "a7deff49-8ea0-44c0-90af-b3ca5066b16f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a7deff49-8ea0-44c0-90af-b3ca5066b16f")
 		)
 		(pin "FH4" bidirectional
 			(at 157.48 119.38 180)
+			(uuid "d9d3b775-d1b9-4440-8f0d-820bcfbe4eaf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d9d3b775-d1b9-4440-8f0d-820bcfbe4eaf")
 		)
 		(pin "FLS3" bidirectional
 			(at 185.42 105.41 0)
+			(uuid "7fb411ab-0d7f-439d-b225-28bac8cddc65")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7fb411ab-0d7f-439d-b225-28bac8cddc65")
 		)
 		(pin "SDA_F" bidirectional
 			(at 157.48 50.8 180)
+			(uuid "b1eda7eb-9681-449d-a07c-cb2973ddfd8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b1eda7eb-9681-449d-a07c-cb2973ddfd8d")
 		)
 		(pin "SCL_F" bidirectional
 			(at 157.48 48.26 180)
+			(uuid "43feae67-cd5c-4f50-b51d-0bcc4395d2db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "43feae67-cd5c-4f50-b51d-0bcc4395d2db")
 		)
 		(pin "FLS1" bidirectional
 			(at 185.42 100.33 0)
+			(uuid "a51b3852-d5ad-42e0-b8f0-c4b1772a7777")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a51b3852-d5ad-42e0-b8f0-c4b1772a7777")
 		)
 		(pin "FLS2" bidirectional
 			(at 185.42 102.87 0)
+			(uuid "6394c870-c602-4d94-a9c0-8ebfb001235a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6394c870-c602-4d94-a9c0-8ebfb001235a")
 		)
 		(pin "FLS4" bidirectional
 			(at 185.42 107.95 0)
+			(uuid "d2896671-f16f-4310-896c-09a81b040b04")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d2896671-f16f-4310-896c-09a81b040b04")
 		)
 		(pin "FLS5" bidirectional
 			(at 185.42 110.49 0)
+			(uuid "e57daabe-897b-4f93-8ef1-bc3582639d99")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e57daabe-897b-4f93-8ef1-bc3582639d99")
 		)
 		(instances
 			(project "tildagon-base"
@@ -10044,6 +9973,10 @@
 	(sheet
 		(at 21.59 21.59)
 		(size 33.02 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -10073,193 +10006,193 @@
 		)
 		(pin "USB-" bidirectional
 			(at 54.61 33.02 0)
+			(uuid "48185711-005f-440d-bdc7-c3e7888683a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "48185711-005f-440d-bdc7-c3e7888683a3")
 		)
 		(pin "USB+" bidirectional
 			(at 54.61 30.48 0)
+			(uuid "cd431b0b-8096-40f5-ad82-fbb01ffc9b9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cd431b0b-8096-40f5-ad82-fbb01ffc9b9c")
 		)
 		(pin "SCL" bidirectional
 			(at 54.61 35.56 0)
+			(uuid "86479c57-61c7-4cde-a905-af0b9482cce8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "86479c57-61c7-4cde-a905-af0b9482cce8")
 		)
 		(pin "~{QON}" bidirectional
 			(at 54.61 24.13 0)
+			(uuid "062f2ce8-b1f3-4f35-9daf-9e5f78502a13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "062f2ce8-b1f3-4f35-9daf-9e5f78502a13")
 		)
 		(pin "SDA" bidirectional
 			(at 54.61 38.1 0)
+			(uuid "b6c967d6-9f49-42e7-82be-e1401bd18d56")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b6c967d6-9f49-42e7-82be-e1401bd18d56")
 		)
 		(pin "VSYS" output
 			(at 54.61 40.64 0)
+			(uuid "8ea7b5b8-0f0a-4919-b433-b78eb8c8489b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8ea7b5b8-0f0a-4919-b433-b78eb8c8489b")
 		)
 		(pin "3V3_SYS" output
 			(at 54.61 45.72 0)
+			(uuid "79ca5397-14ea-4e8c-858a-0684828e8097")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "79ca5397-14ea-4e8c-858a-0684828e8097")
 		)
 		(pin "PMIC_~{INT}" bidirectional
 			(at 54.61 50.8 0)
+			(uuid "42c3c5b0-bdd4-4ed0-9c96-391948df422f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "42c3c5b0-bdd4-4ed0-9c96-391948df422f")
 		)
 		(pin "DEV_PCTRL_~{INT}" tri_state
 			(at 54.61 55.88 0)
+			(uuid "2e054f46-546d-422d-a079-aafc3da128b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2e054f46-546d-422d-a079-aafc3da128b6")
 		)
 		(pin "HOST_PCTRL_~{INT}" tri_state
 			(at 54.61 58.42 0)
+			(uuid "b3838828-8190-4fe7-b9f1-fb6a7b330819")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b3838828-8190-4fe7-b9f1-fb6a7b330819")
 		)
 		(pin "HP_SDA" bidirectional
 			(at 54.61 60.96 0)
+			(uuid "92fce551-dcbc-496e-8e82-d65a3c5ee94f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "92fce551-dcbc-496e-8e82-d65a3c5ee94f")
 		)
 		(pin "HP_SCL" bidirectional
 			(at 54.61 63.5 0)
+			(uuid "6bf77795-4caf-4dc8-a984-26ef1c884419")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6bf77795-4caf-4dc8-a984-26ef1c884419")
 		)
 		(pin "RX" bidirectional
 			(at 54.61 67.31 0)
+			(uuid "461d10a4-8882-4837-a973-350207ef0c4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "461d10a4-8882-4837-a973-350207ef0c4f")
 		)
 		(pin "TX" bidirectional
 			(at 54.61 69.85 0)
+			(uuid "5e126f41-977d-4a7d-9210-f8ec11eb8fc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5e126f41-977d-4a7d-9210-f8ec11eb8fc5")
 		)
 		(pin "VBUS" bidirectional
 			(at 54.61 43.18 0)
+			(uuid "aa580056-aad2-4d07-879a-87b7b4a9bc8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aa580056-aad2-4d07-879a-87b7b4a9bc8d")
 		)
 		(pin "DEV_USB+" bidirectional
 			(at 54.61 74.93 0)
+			(uuid "d4621964-08ad-414b-a1a5-9b77f7b438d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d4621964-08ad-414b-a1a5-9b77f7b438d7")
 		)
 		(pin "DEV_USB-" bidirectional
 			(at 54.61 77.47 0)
+			(uuid "69ece99c-e434-48c8-9694-cd255915a3f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "69ece99c-e434-48c8-9694-cd255915a3f6")
 		)
 		(pin "USB_SEL" bidirectional
 			(at 54.61 80.01 0)
+			(uuid "953385fc-14c5-46c1-a84c-94042b8872da")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "953385fc-14c5-46c1-a84c-94042b8872da")
 		)
 		(pin "VBUS_SW" bidirectional
 			(at 54.61 27.305 0)
+			(uuid "702982c5-8542-4717-8246-6d59f7063fec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "702982c5-8542-4717-8246-6d59f7063fec")
 		)
 		(instances
 			(project "tildagon-base"
@@ -10274,4 +10207,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
