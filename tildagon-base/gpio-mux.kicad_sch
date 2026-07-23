@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e005c524-dfad-43de-8ae6-fd4c21635ca1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,6 +142,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -219,7 +222,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -236,6 +240,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tildagon:AW9523B"
 			(exclude_from_sim no)
@@ -296,17 +301,234 @@
 						(type background)
 					)
 				)
-				(pin tri_state line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 10.16 0)
 					(length 2.54)
-					(name "P1_0"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "AD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "AD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 24.13 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 20.32 180)
+					(length 2.54)
+					(name "P0_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 17.78 180)
+					(length 2.54)
+					(name "P0_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 15.24 180)
+					(length 2.54)
+					(name "P0_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "P0_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -387,6 +609,78 @@
 					)
 				)
 				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P1_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "P1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "P1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "P1_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
 					(at 10.16 -12.7 180)
 					(length 2.54)
 					(name "P1_4"
@@ -458,295 +752,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -15.24 0)
-					(length 2.54)
-					(name "AD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "P1_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 24.13 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -17.78 0)
-					(length 2.54)
-					(name "AD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "P1_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "P1_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 20.32 180)
-					(length 2.54)
-					(name "P0_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 17.78 180)
-					(length 2.54)
-					(name "P0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 15.24 180)
-					(length 2.54)
-					(name "P0_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 12.7 180)
-					(length 2.54)
-					(name "P0_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -25.4 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -899,7 +906,6 @@
 	)
 	(label "SCL_SYS"
 		(at 59.69 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -910,7 +916,6 @@
 	)
 	(label "SDA_SYS"
 		(at 85.09 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -921,7 +926,6 @@
 	)
 	(label "~{INT_SYS}"
 		(at 85.09 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -932,7 +936,6 @@
 	)
 	(label "3V3_SYS"
 		(at 135.89 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -943,7 +946,6 @@
 	)
 	(label "SDA_SYS"
 		(at 185.42 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -954,7 +956,6 @@
 	)
 	(label "~{INT_SYS}"
 		(at 59.69 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -965,7 +966,6 @@
 	)
 	(label "SCL_SYS"
 		(at 135.89 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -976,7 +976,6 @@
 	)
 	(label "SDA_SYS"
 		(at 59.69 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -987,7 +986,6 @@
 	)
 	(label "SCL_SYS"
 		(at 185.42 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -998,7 +996,6 @@
 	)
 	(label "3V3_SYS"
 		(at 195.58 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1009,7 +1006,6 @@
 	)
 	(label "3V3_SYS"
 		(at 81.28 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1020,7 +1016,6 @@
 	)
 	(label "3V3_SYS"
 		(at 146.05 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1031,7 +1026,6 @@
 	)
 	(label "3V3_SYS"
 		(at 184.15 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1042,7 +1036,6 @@
 	)
 	(label "3V3_SYS"
 		(at 132.08 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1053,7 +1046,6 @@
 	)
 	(label "SCL_SYS"
 		(at 85.09 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1064,7 +1056,6 @@
 	)
 	(label "~{INT_SYS}"
 		(at 135.89 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1075,7 +1066,6 @@
 	)
 	(label "3V3_SYS"
 		(at 59.69 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1086,7 +1076,6 @@
 	)
 	(label "3V3_SYS"
 		(at 181.61 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1097,7 +1086,6 @@
 	)
 	(label "SDA_SYS"
 		(at 135.89 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1108,7 +1096,6 @@
 	)
 	(label "~{INT_SYS}"
 		(at 185.42 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1119,7 +1106,6 @@
 	)
 	(label "GND"
 		(at 185.42 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1130,7 +1116,6 @@
 	)
 	(label "3V3_SYS"
 		(at 95.25 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1142,7 +1127,6 @@
 	(hierarchical_label "ELS3"
 		(shape bidirectional)
 		(at 105.41 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1154,7 +1138,6 @@
 	(hierarchical_label "ALS2"
 		(shape bidirectional)
 		(at 205.74 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1166,7 +1149,6 @@
 	(hierarchical_label "INT_ACCEL"
 		(shape bidirectional)
 		(at 106.68 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1178,7 +1160,6 @@
 	(hierarchical_label "BTN5"
 		(shape bidirectional)
 		(at 156.21 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1190,7 +1171,6 @@
 	(hierarchical_label "CLS1"
 		(shape bidirectional)
 		(at 156.21 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1202,7 +1182,6 @@
 	(hierarchical_label "ELS5"
 		(shape bidirectional)
 		(at 105.41 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1214,7 +1193,6 @@
 	(hierarchical_label "BTN2"
 		(shape bidirectional)
 		(at 205.74 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1226,7 +1204,6 @@
 	(hierarchical_label "FLS2"
 		(shape bidirectional)
 		(at 105.41 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1238,7 +1215,6 @@
 	(hierarchical_label "DLS2"
 		(shape bidirectional)
 		(at 105.41 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1250,7 +1226,6 @@
 	(hierarchical_label "BTN3"
 		(shape bidirectional)
 		(at 156.21 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1262,7 +1237,6 @@
 	(hierarchical_label "DET_C"
 		(shape bidirectional)
 		(at 156.21 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,7 +1248,6 @@
 	(hierarchical_label "BTN4"
 		(shape bidirectional)
 		(at 156.21 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1286,7 +1259,6 @@
 	(hierarchical_label "DET_E"
 		(shape bidirectional)
 		(at 156.21 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1270,6 @@
 	(hierarchical_label "~{INT_SYS}"
 		(shape bidirectional)
 		(at 59.69 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1310,7 +1281,6 @@
 	(hierarchical_label "SDA_SYS"
 		(shape input)
 		(at 59.69 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1322,7 +1292,6 @@
 	(hierarchical_label "DET_B"
 		(shape bidirectional)
 		(at 205.74 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1334,7 +1303,6 @@
 	(hierarchical_label "BTN1"
 		(shape bidirectional)
 		(at 205.74 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1346,7 +1314,6 @@
 	(hierarchical_label "USBSEL"
 		(shape bidirectional)
 		(at 205.74 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1358,7 +1325,6 @@
 	(hierarchical_label "TLS1"
 		(shape bidirectional)
 		(at 205.74 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1370,7 +1336,6 @@
 	(hierarchical_label "LED_PWR_EN"
 		(shape bidirectional)
 		(at 205.74 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1382,7 +1347,6 @@
 	(hierarchical_label "CLS3"
 		(shape bidirectional)
 		(at 156.21 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1394,7 +1358,6 @@
 	(hierarchical_label "DLS3"
 		(shape bidirectional)
 		(at 105.41 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1406,7 +1369,6 @@
 	(hierarchical_label "SCL_SYS"
 		(shape input)
 		(at 59.69 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1418,7 +1380,6 @@
 	(hierarchical_label "BLS5"
 		(shape bidirectional)
 		(at 156.21 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,7 +1391,6 @@
 	(hierarchical_label "DET_D"
 		(shape bidirectional)
 		(at 156.21 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1442,7 +1402,6 @@
 	(hierarchical_label "ELS4"
 		(shape bidirectional)
 		(at 105.41 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1454,7 +1413,6 @@
 	(hierarchical_label "FLS5"
 		(shape bidirectional)
 		(at 105.41 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1466,7 +1424,6 @@
 	(hierarchical_label "ELS2"
 		(shape bidirectional)
 		(at 105.41 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1478,7 +1435,6 @@
 	(hierarchical_label "ELS1"
 		(shape bidirectional)
 		(at 105.41 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1490,7 +1446,6 @@
 	(hierarchical_label "3V3_SYS"
 		(shape input)
 		(at 59.69 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1502,7 +1457,6 @@
 	(hierarchical_label "CLS5"
 		(shape bidirectional)
 		(at 156.21 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1514,7 +1468,6 @@
 	(hierarchical_label "BLS3"
 		(shape bidirectional)
 		(at 156.21 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1526,7 +1479,6 @@
 	(hierarchical_label "FLS3"
 		(shape bidirectional)
 		(at 105.41 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1538,7 +1490,6 @@
 	(hierarchical_label "VBUS_SW"
 		(shape bidirectional)
 		(at 205.74 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1550,7 +1501,6 @@
 	(hierarchical_label "ALS4"
 		(shape bidirectional)
 		(at 205.74 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1562,7 +1512,6 @@
 	(hierarchical_label "FLS1"
 		(shape bidirectional)
 		(at 105.41 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1574,7 +1523,6 @@
 	(hierarchical_label "TLS2"
 		(shape bidirectional)
 		(at 205.74 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1586,7 +1534,6 @@
 	(hierarchical_label "BLS2"
 		(shape bidirectional)
 		(at 205.74 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1598,7 +1545,6 @@
 	(hierarchical_label "CLS4"
 		(shape bidirectional)
 		(at 156.21 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1610,7 +1556,6 @@
 	(hierarchical_label "DET_F"
 		(shape bidirectional)
 		(at 156.21 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1622,7 +1567,6 @@
 	(hierarchical_label "DLS4"
 		(shape bidirectional)
 		(at 105.41 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1634,7 +1578,6 @@
 	(hierarchical_label "FLS4"
 		(shape bidirectional)
 		(at 105.41 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1646,7 +1589,6 @@
 	(hierarchical_label "ALS1"
 		(shape bidirectional)
 		(at 205.74 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1658,7 +1600,6 @@
 	(hierarchical_label "DLS5"
 		(shape bidirectional)
 		(at 105.41 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1670,7 +1611,6 @@
 	(hierarchical_label "CLS2"
 		(shape bidirectional)
 		(at 156.21 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1682,7 +1622,6 @@
 	(hierarchical_label "BLS4"
 		(shape bidirectional)
 		(at 156.21 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1694,7 +1633,6 @@
 	(hierarchical_label "DET_A"
 		(shape bidirectional)
 		(at 205.74 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1706,7 +1644,6 @@
 	(hierarchical_label "ALS5"
 		(shape bidirectional)
 		(at 205.74 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,7 +1655,6 @@
 	(hierarchical_label "BTN6"
 		(shape bidirectional)
 		(at 156.21 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1730,7 +1666,6 @@
 	(hierarchical_label "ALS3"
 		(shape bidirectional)
 		(at 205.74 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,7 +1677,6 @@
 	(hierarchical_label "BLS1"
 		(shape bidirectional)
 		(at 205.74 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1754,7 +1688,6 @@
 	(hierarchical_label "DLS1"
 		(shape bidirectional)
 		(at 105.41 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
